@@ -82,6 +82,11 @@
 		</plugins>
 	</build>
 	<dependencies>
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 	<groupId>co.q64.arcade.api</groupId>
 </project>
