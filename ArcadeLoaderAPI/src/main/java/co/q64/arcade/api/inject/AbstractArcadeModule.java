@@ -1,4 +1,4 @@
-package co.q64.arcade.api;
+package co.q64.arcade.api.inject;
 
 import java.util.HashMap;
 import java.util.List;
