@@ -1,3 +1,1 @@
 # ArcadeAPI
-
-Another Test
