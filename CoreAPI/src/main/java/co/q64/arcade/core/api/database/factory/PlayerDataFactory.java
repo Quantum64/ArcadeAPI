@@ -10,5 +10,10 @@ import co.q64.arcade.core.api.objects.MultiPlayerData;
  *
  */
 public interface PlayerDataFactory {
+	/**
+	 * Creates a MultiPlayerData from a player UUID
+	 * @param player the UUID of the player's data
+	 * @return the new MultiPlayerData
+	 */
 	public MultiPlayerData create(UUID player);
 }

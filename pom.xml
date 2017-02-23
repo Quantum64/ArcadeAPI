@@ -118,6 +118,13 @@
 				<version>1.0</version>
 				<scope>provided</scope>
 			</dependency>
+			<dependency>
+				<groupId>co.q64.arcade.core.api</groupId>
+				<artifactId>CoreAPI</artifactId>
+				<classifier>final</classifier>
+				<version>1.0</version>
+				<scope>provided</scope>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
@@ -133,5 +140,6 @@
 		<module>ArcadeLoaderAPI</module>
 		<module>CoreAPI</module>
 		<module>GameAPI</module>
+		<module>ArcadeAnnotationProcessor</module>
 	</modules>
 </project>
