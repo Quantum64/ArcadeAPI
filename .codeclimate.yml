@@ -2,6 +2,9 @@ engines:
   checkstyle:
     enabled: true
     channel: beta
+    checks:
+      com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck:
+        enabled: false
   fixme:
     enabled: true
   pmd:
