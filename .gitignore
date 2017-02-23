@@ -18,7 +18,6 @@ bin/
 tmp/
 target/
 production/
-META-INF/
 *.class
 *.iml
 *.tmp
