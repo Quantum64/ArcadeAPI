@@ -2,7 +2,7 @@ package co.q64.arcade.core.api.database.factory;
 
 import java.util.UUID;
 
-import co.q64.arcade.core.api.objects.MegaPlayerData;
+import co.q64.arcade.core.api.objects.MultiPlayerData;
 
 /**
  * Factory for creating MegaPlayerData, an ease of use class for modifying many tables at once
@@ -10,5 +10,5 @@ import co.q64.arcade.core.api.objects.MegaPlayerData;
  *
  */
 public interface PlayerDataFactory {
-	public MegaPlayerData create(UUID player);
+	public MultiPlayerData create(UUID player);
 }

@@ -9,6 +9,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
 import co.q64.arcade.api.lang.LinkedQueue;
+import co.q64.arcade.core.api.item.core.FieldStack;
 
 public interface ArcadeItem {
 	public String encode();
@@ -126,4 +127,6 @@ public interface ArcadeItem {
 	public void setUnusualSalvagedColor(List<ChatColor> colors);
 
 	public LinkedQueue<ChatColor> getUnusualSalvagedColor();
+	
+	public FieldStack getFieldStack();
 }
