@@ -17,8 +17,32 @@
 
 	<repositories>
 		<repository>
+			<id>elmakers-repo</id>
+			<url>http://maven.elmakers.com/repository/</url>
+		</repository>
+		<repository>
 			<id>gh-repo</id>
 			<url>http://quantum64.github.io/Arcade/mvn-repo/</url>
+		</repository>
+		<repository>
+			<id>dmulloy2-repo</id>
+			<url>http://repo.dmulloy2.net/content/groups/public/</url>
+		</repository>
+		<repository>
+			<id>citizens-repo</id>
+			<url>http://repo.citizensnpcs.co/</url>
+		</repository>
+		<repository>
+			<id>pex-repo</id>
+			<url>http://pex-repo.aoeu.xyz</url>
+		</repository>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+		<repository>
+			<id>vault-repo</id>
+			<url>http://nexus.hc.to/content/repositories/pub_releases</url>
 		</repository>
 	</repositories>
 
