@@ -43,7 +43,7 @@
 					<shadedArtifactAttached>true</shadedArtifactAttached>
 					<shadedClassifierName>final</shadedClassifierName>
 					<promoteTransitiveDependencies>false</promoteTransitiveDependencies>
-					<minimizeJar>true</minimizeJar>
+					<minimizeJar>false</minimizeJar>
 					<filters>
 						<filter>
 							<artifact>*:*</artifact>
