@@ -3,3 +3,5 @@ install: true
 jdk:
 - oraclejdk8
 script: mvn clean install
+notifications:
+  email: false
