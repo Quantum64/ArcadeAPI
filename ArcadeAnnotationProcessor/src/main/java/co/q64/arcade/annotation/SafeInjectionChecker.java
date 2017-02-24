@@ -1,6 +1,5 @@
 package co.q64.arcade.annotation;
 
-import java.lang.annotation.ElementType;
 import java.util.Set;
 
 import javax.annotation.processing.AbstractProcessor;
@@ -23,6 +22,13 @@ import co.q64.arcade.core.api.annotation.Noinject;
 @SupportedAnnotationTypes("javax.inject.Inject")
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
 public class SafeInjectionChecker extends AbstractProcessor {
+	private Types types;
+
+	@Override
+	public synchronized void init(ProcessingEnvironment processingEnvironment) {
+		super.init(processingEnvironment);
+		this.types = processingEnvironment.getTypeUtils();
+	}
 
 	@Override
 	public boolean process(Set<? extends TypeElement> typeElements, RoundEnvironment roundEnvironment) {
@@ -30,13 +36,16 @@ public class SafeInjectionChecker extends AbstractProcessor {
 			Element classElement = element.getEnclosingElement();
 			TypeMirror tm = element.asType();
 			if (tm.getKind() != TypeKind.DECLARED) {
+				//continue;
+			}
+			Element type = types.asElement(tm);
+			if (type == null) {
 				continue;
 			}
-			//System.out.println(tm);
-			if (tm.getAnnotation(Noinject.class) != null) {
+			if (type.getAnnotation(Noinject.class) != null) {
 				processingEnv.getMessager().printMessage(Diagnostic.Kind.ERROR, classElement + "#" + element + " cannot be injected because it has @Noinject");
 			}
-			if (tm.getAnnotation(Injectable.class) == null) {
+			if (type.getAnnotation(Injectable.class) == null) {
 				processingEnv.getMessager().printMessage(Diagnostic.Kind.WARNING, classElement + "#" + element + " is being Injected even though it does not have @Injectable");
 			}
 
