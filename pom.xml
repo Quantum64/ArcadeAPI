@@ -125,6 +125,13 @@
 				<version>1.0</version>
 				<scope>provided</scope>
 			</dependency>
+			<dependency>
+				<groupId>co.q64.arcade.core.api</groupId>
+				<artifactId>GameAPI</artifactId>
+				<classifier>final</classifier>
+				<version>1.0</version>
+				<scope>provided</scope>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
