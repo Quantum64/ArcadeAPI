@@ -75,4 +75,9 @@ public enum DefaultGroups implements Group {
 	public float getPriority() {
 		return priority;
 	}
+
+	@Override
+	public String getPostfix() {
+		return null;
+	}
 }
