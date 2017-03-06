@@ -7,6 +7,8 @@ public interface Group {
 	public String getName();
 
 	public String getPrefix();
+	
+	public String getPostfix();
 
 	public String getNameColor();
 
