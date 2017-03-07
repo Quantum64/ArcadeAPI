@@ -10,6 +10,7 @@ import org.bukkit.inventory.ItemStack;
 
 import co.q64.arcade.api.lang.LinkedQueue;
 import co.q64.arcade.core.api.item.core.FieldStack;
+import co.q64.arcade.core.api.quality.Quality;
 
 public interface ArcadeItem {
 	public String encode();
@@ -44,7 +45,9 @@ public interface ArcadeItem {
 
 	public List<String> getAttrib();
 
-	public String getQuality();
+	public Quality getQuality();
+	
+	public String getQualityName();
 
 	public String getQualityColor();
 
@@ -84,7 +87,9 @@ public interface ArcadeItem {
 
 	public void setAttribString(String s);
 
-	public void setQuality(String quality);
+	public void setQuality(Quality quality);
+	
+	public void setQualityName(String quality);
 
 	public void setQualityColor(String qualityColor);
 
