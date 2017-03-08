@@ -1,10 +1,15 @@
 package co.q64.arcade.core.api.util.chat;
 
+import co.q64.arcade.core.api.annotation.Global;
+import co.q64.arcade.core.api.annotation.Injectable;
+
 /**
  * Utility class for converting a timestamp to a human readable time difference
  * @author Dylan
  *
  */
+@Injectable
+@Global
 public interface TimeMessageGenerator {
 	/**
 	 * Provides the difference from the current time and 'end' in a human readable format

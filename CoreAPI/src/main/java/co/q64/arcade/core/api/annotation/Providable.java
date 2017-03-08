@@ -6,14 +6,15 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Indicates that this class is ready to be injected anywhere in your
- * code with an @Inject annotation
+ * Indicated that this class is usually injected as a @Inject Provider<Clazz> 
+ * instead of a single instance @Inject Clazz
+ * Classes annotated with @Providable are never @Global
  * @author Dylan
  *
  */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.SOURCE)
 @Noinject
-public @interface Injectable {
+public @interface Providable {
 
 }

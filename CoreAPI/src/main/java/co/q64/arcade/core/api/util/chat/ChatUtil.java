@@ -1,11 +1,15 @@
 package co.q64.arcade.core.api.util.chat;
 
+import co.q64.arcade.core.api.annotation.Global;
+import co.q64.arcade.core.api.annotation.Injectable;
 
 /**
  * Converts strings to formatted messages for displaying to users
  * @author Dylan
  *
  */
+@Injectable
+@Global
 public interface ChatUtil {
 
 	/**

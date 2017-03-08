@@ -1,12 +1,18 @@
 package co.q64.arcade.core.api.reporting;
 
+import co.q64.arcade.core.api.annotation.Injectable;
+import co.q64.arcade.core.api.annotation.Providable;
+
 /**
  * An unformed report for a serious error
  * This class is responsible for gathering error information before the
  * report is packaged, which makes it ready to use and print error info
+ * Ususally this is injected as a Provider<CrashReport>
  * @author Dylan
  *
  */
+@Injectable
+@Providable
 public interface CrashReport {
 
 	/**

@@ -4,11 +4,16 @@ import java.sql.SQLException;
 
 import org.apache.commons.dbutils.ResultSetHandler;
 
+import co.q64.arcade.core.api.annotation.Global;
+import co.q64.arcade.core.api.annotation.Injectable;
+
 /**
  * Represents an object capable of executing SQL queries
  * @author Dylan
  *
  */
+@Injectable
+@Global
 public interface QueryExecutor {
 
 	/**

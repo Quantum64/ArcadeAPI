@@ -1,11 +1,14 @@
 package co.q64.arcade.core.api.database.objects;
 
+import co.q64.arcade.core.api.annotation.Noinject;
+
 /**
  * Represents a primitive player data that all player data objects must implement
  * to be saved using the arcade player data storage engine
  * @author Dylan
  *
  */
+@Noinject(reason = Noinject.DATA)
 public interface PlayerData {
 	/**
 	 * Gets the name of the player

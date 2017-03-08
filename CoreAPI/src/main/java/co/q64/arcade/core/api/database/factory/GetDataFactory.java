@@ -4,6 +4,8 @@ import java.util.UUID;
 
 import org.apache.commons.dbutils.handlers.BeanHandler;
 
+import co.q64.arcade.core.api.annotation.Global;
+import co.q64.arcade.core.api.annotation.Injectable;
 import co.q64.arcade.core.api.database.QueryExecutor;
 import co.q64.arcade.core.api.database.objects.GetData;
 import co.q64.arcade.core.api.database.objects.PlayerData;
@@ -13,8 +15,10 @@ import co.q64.arcade.core.api.database.objects.PlayerData;
  * @author Dylan
  *
  */
+@Injectable
+@Global
 public interface GetDataFactory {
-	
+
 	/**
 	 * Creates a new instance of GetData, an query used for retrieving player data
 	 * 

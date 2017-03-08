@@ -2,11 +2,16 @@ package co.q64.arcade.core.api;
 
 import org.bukkit.entity.Player;
 
+import co.q64.arcade.core.api.annotation.Global;
+import co.q64.arcade.core.api.annotation.Injectable;
+
 /**
  * Finds players based on their commonly used chat name
  * @author Dylan
  *
  */
+@Injectable
+@Global
 public interface PlayerFinder {
 	/**
 	 * Gets a player based on their chat name, even if that name is a nickname

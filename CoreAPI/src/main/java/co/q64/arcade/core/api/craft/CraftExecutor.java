@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.bukkit.entity.Player;
 
+import co.q64.arcade.core.api.annotation.Noinject;
 import co.q64.arcade.core.api.item.ArcadeItem;
 
 /**
@@ -11,6 +12,7 @@ import co.q64.arcade.core.api.item.ArcadeItem;
  * @author Dylan
  *
  */
+@Noinject(reason = Noinject.IMPLEMENT)
 public interface CraftExecutor {
 	/**
 	 * Takes input items and produces output items

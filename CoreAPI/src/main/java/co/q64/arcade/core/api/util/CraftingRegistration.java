@@ -1,5 +1,7 @@
 package co.q64.arcade.core.api.util;
 
+import co.q64.arcade.core.api.annotation.Global;
+import co.q64.arcade.core.api.annotation.Injectable;
 import co.q64.arcade.core.api.craft.CraftExecutor;
 import co.q64.arcade.core.api.craft.CraftTemplate;
 
@@ -8,6 +10,8 @@ import co.q64.arcade.core.api.craft.CraftTemplate;
  * @author Dylan
  *
  */
+@Injectable
+@Global
 public interface CraftingRegistration {
 
 	/**

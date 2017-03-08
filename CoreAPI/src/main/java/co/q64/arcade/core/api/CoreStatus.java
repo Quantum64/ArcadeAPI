@@ -1,10 +1,15 @@
 package co.q64.arcade.core.api;
 
+import co.q64.arcade.core.api.annotation.Global;
+import co.q64.arcade.core.api.annotation.Injectable;
+
 /**
  * Status of the core module
  * @author Dylan
  *
  */
+@Injectable
+@Global
 public interface CoreStatus {
 	/**
 	 * Core module enable status

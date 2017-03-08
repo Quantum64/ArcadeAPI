@@ -2,6 +2,11 @@ package co.q64.arcade.core.api.quality;
 
 import org.bukkit.ChatColor;
 
+import co.q64.arcade.core.api.annotation.Noinject;
+import co.q64.arcade.core.api.annotation.Universal;
+
+@Noinject
+@Universal
 public enum DefaultQualities implements Quality {
 	//formatter:off
 	DEFAULT("Rare", ChatColor.YELLOW.toString()),

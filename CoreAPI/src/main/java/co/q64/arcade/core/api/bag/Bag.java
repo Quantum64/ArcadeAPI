@@ -11,7 +11,7 @@ import co.q64.arcade.core.api.item.ArcadeItem;
  * @author Dylan
  *
  */
-@Noinject
+@Noinject(reason = Noinject.IMPLEMENT)
 public interface Bag {
 	/**
 	 * Gets the slot for this bag in the GUI

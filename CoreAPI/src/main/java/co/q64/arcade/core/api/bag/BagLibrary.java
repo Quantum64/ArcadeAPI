@@ -13,7 +13,7 @@ import co.q64.arcade.core.api.annotation.Noinject;
  * @author Dylan
  *
  */
-@Noinject
+@Noinject(reason = Noinject.IMPLEMENT)
 public interface BagLibrary {
 	/**
 	 * Gets the list of grab bags included in this set

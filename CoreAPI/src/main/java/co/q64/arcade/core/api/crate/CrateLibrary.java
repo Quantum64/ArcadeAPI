@@ -2,11 +2,14 @@ package co.q64.arcade.core.api.crate;
 
 import org.bukkit.Material;
 
+import co.q64.arcade.core.api.annotation.Noinject;
+
 /**
  * Represents a crate that is displayed in the crates menu
  * @author Dylan
  *
  */
+@Noinject(reason = Noinject.DATA)
 public interface CrateLibrary {
 	/**
 	 * Gets the crate name

@@ -1,10 +1,15 @@
 package co.q64.arcade.core.api.util;
 
+import co.q64.arcade.core.api.annotation.Global;
+import co.q64.arcade.core.api.annotation.Injectable;
+
 /**
  * Converting strings to integers the nice way since 2017
  * @author Dylan
  *
  */
+@Injectable
+@Global
 public interface IntegerHelper {
 	/**
 	 * Converts a string to an integer

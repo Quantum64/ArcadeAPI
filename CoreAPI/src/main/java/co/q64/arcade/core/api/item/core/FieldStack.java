@@ -5,6 +5,9 @@ import java.util.Set;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
+import co.q64.arcade.core.api.annotation.Noinject;
+
+@Noinject(reason = Noinject.DATA)
 public interface FieldStack {
 	public void finalizeStack();
 

@@ -2,6 +2,8 @@ package co.q64.arcade.core.api.database.factory;
 
 import java.util.UUID;
 
+import co.q64.arcade.core.api.annotation.Global;
+import co.q64.arcade.core.api.annotation.Injectable;
 import co.q64.arcade.core.api.objects.MultiPlayerData;
 
 /**
@@ -9,6 +11,8 @@ import co.q64.arcade.core.api.objects.MultiPlayerData;
  * @author Dylan
  *
  */
+@Injectable
+@Global
 public interface PlayerDataFactory {
 	/**
 	 * Creates a MultiPlayerData from a player UUID

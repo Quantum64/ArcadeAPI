@@ -9,7 +9,7 @@ import co.q64.arcade.core.api.annotation.Noinject;
  * @author Dylan
  *
  */
-@Noinject
+@Noinject(reason = Noinject.IMPLEMENT)
 public interface Manager {
 	/**
 	 * An injected method that is used to complete the initialization of the manager after its construction.

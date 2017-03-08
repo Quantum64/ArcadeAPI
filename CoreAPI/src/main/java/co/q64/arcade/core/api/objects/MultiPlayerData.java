@@ -2,6 +2,9 @@ package co.q64.arcade.core.api.objects;
 
 import java.util.List;
 
+import co.q64.arcade.core.api.annotation.Noinject;
+
+@Noinject(reason = Noinject.DATA)
 public interface MultiPlayerData {
 	public String getPlayer();
 

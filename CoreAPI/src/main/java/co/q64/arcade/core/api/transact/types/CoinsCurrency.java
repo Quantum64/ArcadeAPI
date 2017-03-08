@@ -1,5 +1,7 @@
 package co.q64.arcade.core.api.transact.types;
 
+import co.q64.arcade.core.api.annotation.Global;
+import co.q64.arcade.core.api.annotation.Injectable;
 import co.q64.arcade.core.api.transact.Currency;
 
 /**
@@ -7,5 +9,7 @@ import co.q64.arcade.core.api.transact.Currency;
  * @author Dylan
  *
  */
+@Injectable
+@Global
 public interface CoinsCurrency extends Currency {
 }

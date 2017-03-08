@@ -2,11 +2,17 @@ package co.q64.arcade.core.api.util.database;
 
 import java.util.Map;
 
+import co.q64.arcade.core.api.annotation.Global;
+import co.q64.arcade.core.api.annotation.Injectable;
+
+
 /**
  * A utility for introspecting beans
  * @author Dylan
  *
  */
+@Injectable
+@Global
 public interface BeanIntrospector {
 
 	/**

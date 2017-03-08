@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.bukkit.command.CommandSender;
 
+import co.q64.arcade.core.api.annotation.Noinject;
 import co.q64.arcade.core.api.perm.Group;
 
 /**
@@ -11,6 +12,7 @@ import co.q64.arcade.core.api.perm.Group;
  * @author Dylan
  *
  */
+@Noinject(reason = Noinject.IMPLEMENT)
 public interface CommandProcessor {
 	/**
 	 * We do not currently provide a public command hander API for adding arcade style commands,

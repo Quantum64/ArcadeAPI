@@ -5,6 +5,7 @@ import java.util.UUID;
 
 import org.bukkit.command.CommandSender;
 
+import co.q64.arcade.core.api.annotation.Global;
 import co.q64.arcade.core.api.annotation.Injectable;
 import co.q64.arcade.core.api.perm.Group;
 
@@ -13,6 +14,7 @@ import co.q64.arcade.core.api.perm.Group;
  * @author Dylan
  */
 @Injectable
+@Global
 public interface PermissionManager extends Manager {
 	/**
 	 * Returns if a player is in the provided group or any extension of that group

@@ -2,12 +2,15 @@ package co.q64.arcade.core.api.transact;
 
 import org.bukkit.entity.Player;
 
+import co.q64.arcade.core.api.annotation.Noinject;
+
 /**
  * Represents a currency that can be used for transactions
  * @author Dylan
  *
  */
 @FunctionalInterface
+@Noinject(reason = Noinject.DATA)
 public interface Currency {
 	/**
 	 * Removes currency from this player's account

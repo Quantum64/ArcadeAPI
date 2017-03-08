@@ -1,10 +1,15 @@
 package co.q64.arcade.core.api.paint;
 
+import co.q64.arcade.core.api.annotation.Global;
+import co.q64.arcade.core.api.annotation.Injectable;
+
 /**
  * Utility class allowing the registration of paints
  * @author Dylan
  *
  */
+@Injectable
+@Global
 public interface PaintRegistration {
 	/**
 	 * Adds an enum of unusual paints to the registry
