@@ -14,8 +14,6 @@ import co.q64.arcade.core.api.perm.Group;
  */
 @Injectable
 public interface PermissionManager extends Manager {
-	public void enable();
-
 	/**
 	 * Returns if a player is in the provided group or any extension of that group
 	 * @param sender the requester
