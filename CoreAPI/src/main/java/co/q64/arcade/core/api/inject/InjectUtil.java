@@ -4,6 +4,7 @@ import com.google.inject.Binder;
 import com.google.inject.multibindings.Multibinder;
 
 import co.q64.arcade.core.api.annotation.Noinject;
+import co.q64.arcade.core.api.annotation.Universal;
 
 /**
  * Utilities for binding common core classes
@@ -11,6 +12,7 @@ import co.q64.arcade.core.api.annotation.Noinject;
  *
  */
 @Noinject
+@Universal
 public class InjectUtil {
 	/**
 	 * Gets a multibinder for a class type
