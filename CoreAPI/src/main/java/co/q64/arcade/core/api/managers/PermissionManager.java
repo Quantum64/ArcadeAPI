@@ -13,11 +13,7 @@ import co.q64.arcade.core.api.perm.Group;
  * @author Dylan
  */
 @Injectable
-public interface PermissionManager {
-	/**
-	 * Enables the permission manager
-	 * Automatically called on core init
-	 */
+public interface PermissionManager extends Manager {
 	public void enable();
 
 	/**
