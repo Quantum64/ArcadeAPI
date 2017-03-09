@@ -22,7 +22,7 @@ public interface ConfigManager extends Manager {
 	 * Registers a file SANS EXTENSION that config can be loaded from
 	 * failure to register will result in all config opens returning
 	 * a MOCK config
-	 * @param name
+	 * @param name the name of the file sans extension
 	 */
 	public void registerFile(String name);
 
