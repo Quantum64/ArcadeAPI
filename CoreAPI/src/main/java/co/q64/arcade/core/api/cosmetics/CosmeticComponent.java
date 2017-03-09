@@ -37,7 +37,7 @@ public interface CosmeticComponent {
 	 * Opens the menu for the cosmetic selector, you can implement
 	 * this yourself or use the provided implementation CosmeticSelector
 	 * from core
-	 * @param player
+	 * @param player the player to open the menu for
 	 */
 	public void openMenu(Player player);
 

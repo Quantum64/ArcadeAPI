@@ -22,16 +22,16 @@ public interface CosmeticsManager extends Manager {
 	/**
 	 * You should be regestering your components using a multibinder and you better
 	 * have a really good reason for doing this on demand if you want to use this
-	 * @param comonent
+	 * @param component the component to register
 	 */
 	@Deprecated
-	public void register(CosmeticComponent comonent);
+	public void register(CosmeticComponent component);
 
 	/**
 	 * Gets a cosmetic component from its class, same as
 	 * using @Inject YourComponent
-	 * @param clazz
-	 * @return
+	 * @param clazz the component class get the instance for
+	 * @return the instance of this component
 	 */
 	public <T> T getComponent(Class<T> clazz);
 
