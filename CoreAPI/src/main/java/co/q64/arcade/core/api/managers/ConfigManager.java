@@ -2,6 +2,8 @@ package co.q64.arcade.core.api.managers;
 
 import java.io.File;
 
+import co.q64.arcade.core.api.annotation.Global;
+import co.q64.arcade.core.api.annotation.Injectable;
 import co.q64.arcade.core.api.config.ConfigSection;
 import co.q64.arcade.core.api.config.ConfigSettings;
 
@@ -11,6 +13,8 @@ import co.q64.arcade.core.api.config.ConfigSettings;
  * @author Dylan
  *
  */
+@Injectable
+@Global
 public interface ConfigManager extends Manager {
 	/**
 	 * Gets the folder all config files are stored in
