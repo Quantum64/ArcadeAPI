@@ -1,8 +1,9 @@
 package co.q64.arcade.core.api.managers;
 
 import org.bukkit.entity.Player;
-import org.bukkit.event.player.PlayerJoinEvent;
 
+import co.q64.arcade.core.api.annotation.Global;
+import co.q64.arcade.core.api.annotation.Injectable;
 import co.q64.arcade.core.api.cosmetics.CosmeticComponent;
 
 /**
@@ -12,6 +13,8 @@ import co.q64.arcade.core.api.cosmetics.CosmeticComponent;
  * @author Dylan
  *
  */
+@Injectable
+@Global
 public interface CosmeticsManager extends Manager {
 	/**
 	 * Opens the main cosmetics meny for a player
