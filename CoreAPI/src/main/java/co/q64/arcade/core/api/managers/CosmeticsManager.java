@@ -1,0 +1,56 @@
+package co.q64.arcade.core.api.managers;
+
+import org.bukkit.entity.Player;
+import org.bukkit.event.player.PlayerJoinEvent;
+
+import co.q64.arcade.core.api.cosmetics.CosmeticComponent;
+
+/**
+ * Component of arcade that manages the main cosmetics menu and
+ * used to collect all the CosmeticComponents but those can
+ * be injected now
+ * @author Dylan
+ *
+ */
+public interface CosmeticsManager extends Manager {
+	/**
+	 * Opens the main cosmetics meny for a player
+	 * @param player the player to open the menu for
+	 */
+	public void open(Player player);
+
+	/**
+	 * You should be regestering your components using a multibinder and you better
+	 * have a really good reason for doing this on demand if you want to use this
+	 * @param comonent
+	 */
+	@Deprecated
+	public void register(CosmeticComponent comonent);
+
+	/**
+	 * Gets a cosmetic component from its class, same as
+	 * using @Inject YourComponent
+	 * @param clazz
+	 * @return
+	 */
+	public <T> T getComponent(Class<T> clazz);
+
+	/**
+	 * Disables a cosmetic component server wide
+	 * @param clazz the component class to disable
+	 */
+	public void disable(Class<? extends CosmeticComponent> clazz);
+
+	/**
+	 * Enables a cosmetic component server wide
+	 * @param clazz the component class to enable
+	 */
+	public void enable(Class<? extends CosmeticComponent> clazz);
+
+	/**
+	 * Gets if a component is currently disabled
+	 * @param clazz the component class
+	 * @return if the component is disabled
+	 */
+	public boolean isDisabled(Class<? extends CosmeticComponent> clazz);
+}
