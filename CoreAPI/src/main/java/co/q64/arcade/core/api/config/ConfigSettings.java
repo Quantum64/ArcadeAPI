@@ -31,6 +31,7 @@ public interface ConfigSettings {
 
 	/**
 	 * Sets the file name to open for the config
+	 * DO NOT INCLUDE FILE EXTENSION
 	 * @param name the file to open
 	 * @return this
 	 */
