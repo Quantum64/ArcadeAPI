@@ -20,18 +20,24 @@ public @interface Noinject {
 	 * because no default implementation is supplied
 	 */
 	public static final String IMPLEMENT = "This class must be implemented";
-	
+
 	/**
 	 * A reason indicating that this class is used for storing final data, usually returned from
 	 * other API classes, and there is no reason to create a blank copt of this class
 	 */
 	public static final String DATA = "This class is a return data type";
-	
+
 	/**
 	 * A reason indicating that this class contains only static unitlty methods and that
 	 * an instance should never exist
 	 */
 	public static final String STATIC = "This class is for static use only";
+
+	/**
+	 * A reason indicating that this class has an API interface and should not
+	 * be injected directly through its implementation, this is mostly for internal use
+	 */
+	public static final String INTERFACED = "Inject the interface of this class instead of its implementation";
 
 	/**
 	 * Gets the reason why this class shouldn't be injected

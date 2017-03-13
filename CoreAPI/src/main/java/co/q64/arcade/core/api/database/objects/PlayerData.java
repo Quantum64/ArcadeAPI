@@ -1,5 +1,7 @@
 package co.q64.arcade.core.api.database.objects;
 
+import java.util.concurrent.atomic.AtomicBoolean;
+
 import co.q64.arcade.core.api.annotation.Noinject;
 
 /**
@@ -33,4 +35,10 @@ public interface PlayerData {
 	 * @param player the new UUID of the player
 	 */
 	public void setPlayer(String player);
+
+	/**
+	 * Provide an atomic boolean with a default value of false
+	 * @return your boolean
+	 */
+	public AtomicBoolean needsUpdate();
 }

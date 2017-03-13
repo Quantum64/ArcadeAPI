@@ -5,7 +5,7 @@ import java.util.List;
 import org.bukkit.entity.Player;
 
 import co.q64.arcade.core.api.annotation.Noinject;
-import co.q64.arcade.core.api.item.ArcadeItem;
+import co.q64.arcade.core.api.objects.item.Item;
 
 /**
  * Represents an implementable object for getting information about a crate
@@ -25,5 +25,5 @@ public interface VirtualCrate {
 	 * @param p the player who opened the crate
 	 * @return the item the crate produced
 	 */
-	public ArcadeItem openCrate(Player p);
+	public Item openCrate(Player p);
 }

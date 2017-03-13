@@ -1,4 +1,4 @@
-package co.q64.arcade.core.api.item.core;
+package co.q64.arcade.core.api.objects.item.core;
 
 import java.util.Map.Entry;
 import java.util.Set;

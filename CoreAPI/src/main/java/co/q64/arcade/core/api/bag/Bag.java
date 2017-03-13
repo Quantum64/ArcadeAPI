@@ -3,7 +3,7 @@ package co.q64.arcade.core.api.bag;
 import java.util.List;
 
 import co.q64.arcade.core.api.annotation.Noinject;
-import co.q64.arcade.core.api.item.ArcadeItem;
+import co.q64.arcade.core.api.objects.item.Item;
 
 /**
  * Represents a grab bag that can be opened by players and drops items
@@ -23,7 +23,7 @@ public interface Bag {
 	 * Gets a random item this bag should drop
 	 * @return the dropped item
 	 */
-	public ArcadeItem getItem();
+	public Item getItem();
 	
 	/**
 	 * Gets the lore of the bag for the GUI

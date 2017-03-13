@@ -9,7 +9,7 @@ import co.q64.arcade.core.api.annotation.Injectable;
 import co.q64.arcade.core.api.crate.CrateLibrary;
 import co.q64.arcade.core.api.crate.CrateOpenExecutor;
 import co.q64.arcade.core.api.crate.VirtualCrate;
-import co.q64.arcade.core.api.item.ArcadeItem;
+import co.q64.arcade.core.api.objects.item.Item;
 
 /**
  * The component that manages crates
@@ -76,5 +76,5 @@ public interface CrateManager extends Manager {
 	 * @param player the player who unboxed the crate
 	 * @param item the item they found
 	 */
-	public void doFoundEffect(Player player, ArcadeItem item);
+	public void doFoundEffect(Player player, Item item);
 }

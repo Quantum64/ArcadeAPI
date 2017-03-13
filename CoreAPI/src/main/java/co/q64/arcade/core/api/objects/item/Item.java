@@ -1,4 +1,4 @@
-package co.q64.arcade.core.api.item;
+package co.q64.arcade.core.api.objects.item;
 
 import java.util.List;
 import java.util.UUID;
@@ -10,11 +10,11 @@ import org.bukkit.inventory.ItemStack;
 
 import co.q64.arcade.api.lang.LinkedQueue;
 import co.q64.arcade.core.api.annotation.Noinject;
-import co.q64.arcade.core.api.item.core.FieldStack;
+import co.q64.arcade.core.api.objects.item.core.FieldStack;
 import co.q64.arcade.core.api.quality.Quality;
 
 @Noinject(reason = Noinject.DATA)
-public interface ArcadeItem {
+public interface Item {
 	public String encode();
 
 	public String getFullName();
@@ -125,7 +125,7 @@ public interface ArcadeItem {
 
 	public ItemStack getCustomDisplayItem();
 
-	public ArcadeItem copy();
+	public Item copy();
 
 	public String getUsableIn();
 

@@ -3,7 +3,7 @@ package co.q64.arcade.core.api.crate;
 import org.bukkit.entity.Player;
 
 import co.q64.arcade.core.api.annotation.Noinject;
-import co.q64.arcade.core.api.item.ArcadeItem;
+import co.q64.arcade.core.api.objects.item.Item;
 
 /**
  * Executes when crates are opened, should be
@@ -25,5 +25,5 @@ public interface CrateOpenExecutor {
 	 * @param player the player to play the animation for
 	 * @param found the item that the player found
 	 */
-	public void openCrateAnim(Player player, ArcadeItem found);
+	public void openCrateAnim(Player player, Item found);
 }
