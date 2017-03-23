@@ -12,5 +12,5 @@ import co.q64.arcade.core.api.annotation.inject.Providable;
 @Injectable
 @Providable
 public interface OfflinePlayerAction<T> extends Runnable {
-
+	public void executeAsync();
 }
