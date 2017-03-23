@@ -36,15 +36,4 @@ public enum DefaultQualities implements Quality {
 	public String getColor() {
 		return color;
 	}
-
-	/*
-	itemManager.registerQuality(Item.DEFAILT_QUALITY);
-	itemManager.registerQuality("Unusual");
-	itemManager.registerQuality("Salvaged");
-	itemManager.registerQuality("Self-Made");
-	itemManager.registerQuality("Community");
-	itemManager.registerQuality("Genuine");
-	itemManager.registerQuality("Haunted");
-	itemManager.registerQuality("Festive");
-	*/
 }
