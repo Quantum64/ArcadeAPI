@@ -1,8 +1,8 @@
 
 package co.q64.arcade.core.api.executor;
 
-import co.q64.arcade.core.api.annotation.Global;
-import co.q64.arcade.core.api.annotation.Injectable;
+import co.q64.arcade.core.api.annotation.inject.Global;
+import co.q64.arcade.core.api.annotation.inject.Injectable;
 
 /**
  * Allows executors to be registered

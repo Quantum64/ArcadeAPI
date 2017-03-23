@@ -4,8 +4,8 @@ import java.util.List;
 
 import org.bukkit.entity.Player;
 
-import co.q64.arcade.core.api.annotation.Global;
-import co.q64.arcade.core.api.annotation.Injectable;
+import co.q64.arcade.core.api.annotation.inject.Global;
+import co.q64.arcade.core.api.annotation.inject.Injectable;
 import co.q64.arcade.core.api.crate.CrateLibrary;
 import co.q64.arcade.core.api.crate.CrateOpenExecutor;
 import co.q64.arcade.core.api.crate.VirtualCrate;

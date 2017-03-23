@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.bukkit.entity.Player;
 
-import co.q64.arcade.core.api.annotation.Noinject;
+import co.q64.arcade.core.api.annotation.inject.Noinject;
 import co.q64.arcade.core.api.implementable.PlayerExecutor;
 import co.q64.arcade.core.api.perm.Group;
 

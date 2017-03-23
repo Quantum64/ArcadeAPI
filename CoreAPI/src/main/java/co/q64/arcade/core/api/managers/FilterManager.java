@@ -4,8 +4,8 @@ import java.util.List;
 
 import org.bukkit.entity.Player;
 
-import co.q64.arcade.core.api.annotation.Global;
-import co.q64.arcade.core.api.annotation.Injectable;
+import co.q64.arcade.core.api.annotation.inject.Global;
+import co.q64.arcade.core.api.annotation.inject.Injectable;
 import co.q64.arcade.core.api.filter.FilterMenu;
 import co.q64.arcade.core.api.filter.FilterMenuCallback;
 import co.q64.arcade.core.api.filter.ItemFilter;

@@ -5,8 +5,8 @@ import java.util.Map;
 
 import org.bukkit.entity.Player;
 
-import co.q64.arcade.core.api.annotation.Global;
-import co.q64.arcade.core.api.annotation.Injectable;
+import co.q64.arcade.core.api.annotation.inject.Global;
+import co.q64.arcade.core.api.annotation.inject.Injectable;
 import co.q64.arcade.core.api.key.KeyLibrary;
 
 @Injectable

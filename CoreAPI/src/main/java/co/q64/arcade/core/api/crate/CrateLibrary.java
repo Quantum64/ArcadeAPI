@@ -2,7 +2,7 @@ package co.q64.arcade.core.api.crate;
 
 import org.bukkit.Material;
 
-import co.q64.arcade.core.api.annotation.Noinject;
+import co.q64.arcade.core.api.annotation.inject.Noinject;
 
 /**
  * Represents a crate that is displayed in the crates menu

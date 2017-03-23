@@ -2,7 +2,7 @@ package co.q64.arcade.core.api.bag;
 
 import java.util.List;
 
-import co.q64.arcade.core.api.annotation.Noinject;
+import co.q64.arcade.core.api.annotation.inject.Noinject;
 import co.q64.arcade.core.api.objects.item.Item;
 
 /**

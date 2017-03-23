@@ -2,8 +2,8 @@ package co.q64.arcade.core.api.managers;
 
 import java.io.File;
 
-import co.q64.arcade.core.api.annotation.Global;
-import co.q64.arcade.core.api.annotation.Injectable;
+import co.q64.arcade.core.api.annotation.inject.Global;
+import co.q64.arcade.core.api.annotation.inject.Injectable;
 import co.q64.arcade.core.api.config.ConfigSection;
 import co.q64.arcade.core.api.config.ConfigSettings;
 

@@ -3,7 +3,7 @@ package co.q64.arcade.core.api.implementable;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-import co.q64.arcade.core.api.annotation.Noinject;
+import co.q64.arcade.core.api.annotation.inject.Noinject;
 
 @Noinject(reason = Noinject.IMPLEMENT)
 public interface SelectMenuExecutor {

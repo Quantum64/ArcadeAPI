@@ -2,8 +2,8 @@ package co.q64.arcade.core.api.util.chat;
 
 import org.bukkit.ChatColor;
 
-import co.q64.arcade.core.api.annotation.Global;
-import co.q64.arcade.core.api.annotation.Injectable;
+import co.q64.arcade.core.api.annotation.inject.Global;
+import co.q64.arcade.core.api.annotation.inject.Injectable;
 
 
 /**

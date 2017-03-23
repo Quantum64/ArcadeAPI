@@ -1,6 +1,6 @@
 package co.q64.arcade.core.api.executor;
 
-import co.q64.arcade.core.api.annotation.Noinject;
+import co.q64.arcade.core.api.annotation.inject.Noinject;
 
 /**
  * A handler for an executable that accepts an argument

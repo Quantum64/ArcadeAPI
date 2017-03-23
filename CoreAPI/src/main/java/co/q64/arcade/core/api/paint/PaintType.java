@@ -1,7 +1,7 @@
 package co.q64.arcade.core.api.paint;
 
-import co.q64.arcade.core.api.annotation.Noinject;
-import co.q64.arcade.core.api.annotation.Universal;
+import co.q64.arcade.core.api.annotation.inject.Noinject;
+import co.q64.arcade.core.api.annotation.inject.Universal;
 
 @Noinject
 @Universal

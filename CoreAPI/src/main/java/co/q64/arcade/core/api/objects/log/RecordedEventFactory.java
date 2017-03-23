@@ -1,8 +1,8 @@
 package co.q64.arcade.core.api.objects.log;
 
-import co.q64.arcade.core.api.annotation.Injectable;
-
 import com.google.inject.assistedinject.Assisted;
+
+import co.q64.arcade.core.api.annotation.inject.Injectable;
 
 @Injectable
 public interface RecordedEventFactory {

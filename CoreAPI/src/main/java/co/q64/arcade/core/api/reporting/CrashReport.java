@@ -1,7 +1,7 @@
 package co.q64.arcade.core.api.reporting;
 
-import co.q64.arcade.core.api.annotation.Injectable;
-import co.q64.arcade.core.api.annotation.Providable;
+import co.q64.arcade.core.api.annotation.inject.Injectable;
+import co.q64.arcade.core.api.annotation.inject.Providable;
 
 /**
  * An unformed report for a serious error

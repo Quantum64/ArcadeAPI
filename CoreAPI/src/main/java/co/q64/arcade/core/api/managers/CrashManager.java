@@ -2,8 +2,8 @@ package co.q64.arcade.core.api.managers;
 
 import org.bukkit.command.CommandSender;
 
-import co.q64.arcade.core.api.annotation.Global;
-import co.q64.arcade.core.api.annotation.Injectable;
+import co.q64.arcade.core.api.annotation.inject.Global;
+import co.q64.arcade.core.api.annotation.inject.Injectable;
 import co.q64.arcade.core.api.reporting.PreparedCrashReport;
 
 /**

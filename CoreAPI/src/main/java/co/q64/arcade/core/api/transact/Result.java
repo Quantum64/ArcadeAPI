@@ -2,7 +2,7 @@ package co.q64.arcade.core.api.transact;
 
 import org.bukkit.entity.Player;
 
-import co.q64.arcade.core.api.annotation.Noinject;
+import co.q64.arcade.core.api.annotation.inject.Noinject;
 
 /**
  * The result of a transaction attempt

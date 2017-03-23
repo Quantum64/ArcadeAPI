@@ -1,6 +1,6 @@
 package co.q64.arcade.core.api.reward;
 
-import co.q64.arcade.core.api.annotation.Noinject;
+import co.q64.arcade.core.api.annotation.inject.Noinject;
 
 @Noinject(reason = Noinject.DATA)
 public enum RewardStatus {

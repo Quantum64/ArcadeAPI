@@ -6,7 +6,7 @@ import java.util.Map;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 
-import co.q64.arcade.core.api.annotation.Noinject;
+import co.q64.arcade.core.api.annotation.inject.Noinject;
 import co.q64.arcade.core.api.gcompact.UnusualEffects;
 import co.q64.arcade.core.api.objects.item.Item;
 

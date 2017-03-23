@@ -2,8 +2,8 @@ package co.q64.arcade.core.api.database.factory;
 
 import org.bukkit.command.CommandSender;
 
-import co.q64.arcade.core.api.annotation.Global;
-import co.q64.arcade.core.api.annotation.Injectable;
+import co.q64.arcade.core.api.annotation.inject.Global;
+import co.q64.arcade.core.api.annotation.inject.Injectable;
 import co.q64.arcade.core.api.database.OfflinePlayerAction;
 import co.q64.arcade.core.api.database.PlayerDataExecutor;
 import co.q64.arcade.core.api.database.objects.PlayerData;

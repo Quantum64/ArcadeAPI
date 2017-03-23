@@ -1,6 +1,6 @@
 package co.q64.arcade.core.api.database;
 
-import co.q64.arcade.core.api.annotation.Noinject;
+import co.q64.arcade.core.api.annotation.inject.Noinject;
 import co.q64.arcade.core.api.database.objects.PlayerData;
 
 /**
