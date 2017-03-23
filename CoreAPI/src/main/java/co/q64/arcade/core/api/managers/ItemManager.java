@@ -23,5 +23,5 @@ public interface ItemManager extends Manager {
 
 	public void openSelectFrom(Player p, Player target, SelectItemExecutor exec, boolean clearFilters, boolean collapse);
 
-	public void openViewMenu(Player p, Player target, boolean clearFilters, boolean collapse);
+	public void openView(Player p, Player target, boolean clearFilters, boolean collapse);
 }
