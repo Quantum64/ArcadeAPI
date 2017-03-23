@@ -12,6 +12,7 @@ import co.q64.arcade.core.api.database.objects.PlayerData;
  * @param <T> the type of player data to act on
  */
 @Noinject
+@FunctionalInterface
 public interface PlayerDataExecutor<T extends PlayerData> {
 	/**
 	 * The action to perform on the data
