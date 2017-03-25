@@ -28,4 +28,6 @@ public interface DatabaseManager extends Manager {
 	public void addPlayerData(PlayerData add);
 
 	public void manualUpdate(Class<? extends PlayerData> clazz, UUID player);
+	
+	public void manualUpdate(PlayerData data);
 }
