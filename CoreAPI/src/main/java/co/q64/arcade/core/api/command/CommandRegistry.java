@@ -1,5 +1,7 @@
 package co.q64.arcade.core.api.command;
 
+import java.util.List;
+
 import co.q64.arcade.core.api.annotation.inject.Global;
 import co.q64.arcade.core.api.annotation.inject.Injectable;
 
@@ -10,10 +12,14 @@ import co.q64.arcade.core.api.annotation.inject.Injectable;
  */
 @Injectable
 @Global
-public interface CommandRegistration {
+public interface CommandRegistry {
 	/**
 	 * Adds a command to the base registry
 	 * @param c the command to add
 	 */
-	public void addPrimaryCommand(CommandProcessor c);
+	public void addCommand(CommandDefinition definition);
+
+	public void addModule(CommandDefinition parent, CommandDefinition command);
+
+	public List<CommandProcessor> getCommands();
 }

@@ -12,4 +12,12 @@ public abstract class AbstractArcadeModule extends AbstractModule {
 	public Map<AbstractAdditionalModules, AbstractModule> getAdditionalModules() {
 		return new HashMap<AbstractAdditionalModules, AbstractModule>();
 	}
+
+	public String getName() {
+		return "null";
+	}
+
+	public String getVersion() {
+		return "1.0";
+	}
 }
