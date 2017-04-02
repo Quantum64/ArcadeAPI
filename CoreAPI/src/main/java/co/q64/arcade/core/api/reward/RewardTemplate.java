@@ -11,6 +11,8 @@ import co.q64.arcade.core.api.perm.Group;
 @Noinject(reason = Noinject.DATA)
 public interface RewardTemplate {
 	public String getName();
+	
+	public String getSeries();
 
 	public List<String> getRewards();
 
