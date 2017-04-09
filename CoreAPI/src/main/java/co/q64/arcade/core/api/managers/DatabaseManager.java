@@ -4,10 +4,13 @@ import java.util.List;
 import java.util.UUID;
 
 import co.q64.arcade.core.api.database.QueryExecutor;
+import co.q64.arcade.core.api.database.objects.GeneralData;
 import co.q64.arcade.core.api.database.objects.PlayerData;
 
 public interface DatabaseManager extends Manager {
 	public void addTable(Class<? extends PlayerData> clazz, String name);
+
+	public void addGeneralTable(Class<? extends GeneralData> clazz);
 
 	public QueryExecutor getQueryRunner();
 
@@ -28,6 +31,6 @@ public interface DatabaseManager extends Manager {
 	public void addPlayerData(PlayerData add);
 
 	public void manualUpdate(Class<? extends PlayerData> clazz, UUID player);
-	
+
 	public void manualUpdate(PlayerData data);
 }
