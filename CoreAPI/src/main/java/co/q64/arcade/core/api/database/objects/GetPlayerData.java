@@ -1,6 +1,5 @@
 package co.q64.arcade.core.api.database.objects;
 
-import java.util.List;
 import java.util.concurrent.Callable;
 
 import co.q64.arcade.core.api.annotation.inject.Noinject;
@@ -11,6 +10,6 @@ import co.q64.arcade.core.api.annotation.inject.Noinject;
  *
  */
 @Noinject(reason = Noinject.DATA)
-public interface GetData extends Callable<List<? extends GeneralData>> {
+public interface GetPlayerData extends Callable<PlayerData> {
 
 }

@@ -1,6 +1,7 @@
 package co.q64.arcade.core.api.util.database;
 
 import java.util.Map;
+import java.util.Optional;
 
 import co.q64.arcade.core.api.annotation.inject.Global;
 import co.q64.arcade.core.api.annotation.inject.Injectable;
@@ -28,4 +29,6 @@ public interface BeanIntrospector {
 	 * @return a map of the field names field objects contained in this bean
 	 */
 	public Map<String, Object> introspect(Object obj, boolean update);
+
+	public Optional<String> getPrimary(Class<?> clazz);
 }
