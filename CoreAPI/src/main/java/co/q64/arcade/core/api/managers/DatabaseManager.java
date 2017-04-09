@@ -8,6 +8,8 @@ import co.q64.arcade.core.api.database.objects.GeneralData;
 import co.q64.arcade.core.api.database.objects.PlayerData;
 
 public interface DatabaseManager extends Manager {
+	public void addTable(Class<? extends PlayerData> clazz);
+	
 	public void addTable(Class<? extends PlayerData> clazz, String name);
 
 	public void addGeneralTable(Class<? extends GeneralData> clazz);
