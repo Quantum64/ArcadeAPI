@@ -1,6 +1,6 @@
 package co.q64.arcade.core.api.database.factory;
 
-import org.apache.commons.dbutils.handlers.BeanListHandler;
+import org.apache.commons.dbutils.q64.handlers.BeanListHandler;
 
 import co.q64.arcade.core.api.annotation.inject.Global;
 import co.q64.arcade.core.api.annotation.inject.Injectable;

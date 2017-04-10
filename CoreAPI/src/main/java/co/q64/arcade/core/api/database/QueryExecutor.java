@@ -2,7 +2,7 @@ package co.q64.arcade.core.api.database;
 
 import java.sql.SQLException;
 
-import org.apache.commons.dbutils.ResultSetHandler;
+import org.apache.commons.dbutils.q64.ResultSetHandler;
 
 import co.q64.arcade.core.api.annotation.inject.Global;
 import co.q64.arcade.core.api.annotation.inject.Injectable;

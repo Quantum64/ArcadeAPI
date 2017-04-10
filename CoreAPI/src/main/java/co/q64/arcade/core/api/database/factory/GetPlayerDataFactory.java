@@ -2,7 +2,7 @@ package co.q64.arcade.core.api.database.factory;
 
 import java.util.UUID;
 
-import org.apache.commons.dbutils.handlers.BeanHandler;
+import org.apache.commons.dbutils.q64.handlers.BeanHandler;
 
 import co.q64.arcade.core.api.annotation.inject.Global;
 import co.q64.arcade.core.api.annotation.inject.Injectable;
