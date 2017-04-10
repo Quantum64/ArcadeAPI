@@ -9,7 +9,7 @@ import co.q64.arcade.core.api.database.objects.PlayerData;
 
 public interface DatabaseManager extends Manager {
 	public void addTable(Class<? extends PlayerData> clazz);
-	
+
 	public void addTable(Class<? extends PlayerData> clazz, String name);
 
 	public void addGeneralTable(Class<? extends GeneralData> clazz);
@@ -35,4 +35,6 @@ public interface DatabaseManager extends Manager {
 	public void manualUpdate(Class<? extends PlayerData> clazz, UUID player);
 
 	public void manualUpdate(PlayerData data);
+
+	public <T> Class<? extends T> swapClass(Class<T> clazz);
 }
