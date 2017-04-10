@@ -10,4 +10,8 @@ public interface GeneralDataController {
 	public void update(GeneralData data, String value);
 
 	public void update(GeneralData data, String key, String value);
+
+	public void delete(String value);
+
+	public void delete(String key, String value);
 }
