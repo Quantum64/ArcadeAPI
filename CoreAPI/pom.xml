@@ -114,10 +114,10 @@
 			<artifactId>guice-multibindings</artifactId>
 			<scope>provided</scope>
 		</dependency>
-
 		<dependency>
-			<groupId>commons-dbutils</groupId>
-			<artifactId>commons-dbutils</artifactId>
+			<groupId>co.q64.arcade</groupId>
+			<artifactId>External</artifactId>
+			<classifier>final</classifier>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
