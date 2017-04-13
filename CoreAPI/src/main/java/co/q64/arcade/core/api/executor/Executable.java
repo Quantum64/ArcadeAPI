@@ -11,12 +11,6 @@ import co.q64.arcade.core.api.annotation.inject.Noinject;
 @Noinject(reason = Noinject.DATA)
 public interface Executable<T extends ArgumentMap> {
 	/**
-	 * Gets the human readable name of this
-	 * @return
-	 */
-	public String getName();
-	
-	/**
 	 * Calls the executalbe with a given argument map
 	 * @param args
 	 */

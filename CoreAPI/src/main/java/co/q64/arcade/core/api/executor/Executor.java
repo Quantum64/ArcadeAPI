@@ -10,9 +10,4 @@ import co.q64.arcade.core.api.annotation.inject.Noinject;
  */
 @Noinject(reason = Noinject.IMPLEMENT)
 public interface Executor<T extends ArgumentMap> {
-	/**
-	 * Gets the name of the executor
-	 * @return the executor name
-	 */
-	public String getName();
 }
