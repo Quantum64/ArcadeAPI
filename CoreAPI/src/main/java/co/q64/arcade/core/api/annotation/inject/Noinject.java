@@ -23,12 +23,12 @@ public @interface Noinject {
 
 	/**
 	 * A reason indicating that this class is used for storing final data, usually returned from
-	 * other API classes, and there is no reason to create a blank copt of this class
+	 * other API classes, and there is no reason to create a blank instance of this class
 	 */
 	public static final String DATA = "This class is a return data type";
 
 	/**
-	 * A reason indicating that this class contains only static unitlty methods and that
+	 * A reason indicating that this class contains only static utility methods and that
 	 * an instance should never exist
 	 */
 	public static final String STATIC = "This class is for static use only";
@@ -38,6 +38,12 @@ public @interface Noinject {
 	 * be injected directly through its implementation, this is mostly for internal use
 	 */
 	public static final String INTERFACED = "Inject the interface of this class instead of its implementation";
+
+	/**
+	 * A reason indicating that this class only exists to provide its class object
+	 * to methods that use a class object to link a class to its implementation
+	 */
+	public static final String CLASS = "This class only exists to provide a class object";
 
 	/**
 	 * Gets the reason why this class shouldn't be injected
