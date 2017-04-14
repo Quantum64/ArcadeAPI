@@ -16,5 +16,5 @@ public interface ExecutorRegistration {
 	 * Adds an executor to the executor registration
 	 * @param e the executor to add
 	 */
-	public void register(Executor<?> e);
+	public void register(Class<? extends Executor<?>> e);
 }

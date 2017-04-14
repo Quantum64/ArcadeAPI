@@ -9,7 +9,7 @@ import co.q64.arcade.core.api.executor.Executor;
 @Injectable
 @Global
 public interface ExecutorManager extends Manager {
-	public void registerExecutor(Executor<?> e);
+	public void registerExecutor(Class<? extends Executor<?>> e);
 
 	public <T extends ArgumentMap> Executable<T> getExecutor(Class<? extends Executor<T>> clazz);
 
