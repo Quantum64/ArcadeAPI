@@ -8,5 +8,5 @@ import co.q64.arcade.core.api.database.objects.GeneralData;
 @Noinject(reason = Noinject.IMPLEMENT)
 @FunctionalInterface
 public interface GeneralDataMultiScope<T extends GeneralData> {
-	public boolean dataAction(List<T> t, GeneralDataController controller);
+	public void dataAction(List<T> t, GeneralDataController controller);
 }
