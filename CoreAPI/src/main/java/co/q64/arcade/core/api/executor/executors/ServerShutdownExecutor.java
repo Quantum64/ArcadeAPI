@@ -1,4 +1,4 @@
-package co.q64.arcade.core.executor.executors;
+package co.q64.arcade.core.api.executor.executors;
 
 import co.q64.arcade.core.api.annotation.inject.Noinject;
 import co.q64.arcade.core.api.executor.ArgumentMap;
