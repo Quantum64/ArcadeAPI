@@ -17,4 +17,6 @@ public interface TimeMessageGenerator {
 	 * @return the human readable time difference
 	 */
 	public String getTimeMessage(long end);
+
+	public String getHumanTime(long current);
 }
