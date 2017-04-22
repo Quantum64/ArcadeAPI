@@ -13,7 +13,7 @@ import com.google.inject.multibindings.Multibinder;
  */
 @Noinject
 @Universal
-public class InjectUtil {
+public interface InjectUtil {
 	/**
 	 * Gets a multibinder for a class type
 	 * @param binder the module binder
