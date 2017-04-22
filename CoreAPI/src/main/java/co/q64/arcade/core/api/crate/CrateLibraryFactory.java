@@ -2,10 +2,10 @@ package co.q64.arcade.core.api.crate;
 
 import org.bukkit.Material;
 
+import com.google.inject.assistedinject.Assisted;
+
 import co.q64.arcade.core.api.annotation.inject.Global;
 import co.q64.arcade.core.api.annotation.inject.Injectable;
-
-import com.google.inject.assistedinject.Assisted;
 
 /**
  * Create crate libraries

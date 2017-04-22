@@ -16,7 +16,7 @@ import co.q64.arcade.core.api.database.objects.PlayerData;
  */
 @Injectable
 @Global
-public interface OfflinePlayerActionFactory<T extends PlayerData> {
+public interface OfflinePlayerActionFactory {
 	/**
 	 * Gets a provider for offline data access
 	 * @param sender the requester of this data, error messages are sent here
@@ -25,5 +25,5 @@ public interface OfflinePlayerActionFactory<T extends PlayerData> {
 	 * @param clazz the data bean class to get
 	 * @return the offline data provider
 	 */
-	OfflinePlayerAction<T> create(CommandSender sender, String name, PlayerDataExecutor<T> exec, Class<T> clazz);
+	public <T extends PlayerData> OfflinePlayerAction<T> create(CommandSender sender, String name, PlayerDataExecutor<T> exec, Class<T> clazz);
 }
