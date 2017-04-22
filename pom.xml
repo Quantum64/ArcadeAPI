@@ -146,6 +146,7 @@
 
 	<modules>
 		<module>ArcadeLoaderAPI</module>
+		<module>FoundationAPI</module>
 		<module>CoreAPI</module>
 		<module>GameAPI</module>
 		<module>ArcadeAnnotationProcessor</module>

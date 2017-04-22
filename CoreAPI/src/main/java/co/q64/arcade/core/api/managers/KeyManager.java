@@ -16,9 +16,9 @@ public interface KeyManager extends Manager {
 
 	public void openMenu(Player p, String series);
 
-	public Map<KeyLibrary, Integer> getOwnedKeys(Player p);
+	public Map<KeyLibrary, Integer> getOwnedKeys(Player p, boolean real);
 
-	public void spendKey(Player p, String crateName);
+	public void spendKey(Player p, String crateName, boolean real);
 
 	public void setKeyLibrary(Class<? extends KeyLibrary> lib);
 

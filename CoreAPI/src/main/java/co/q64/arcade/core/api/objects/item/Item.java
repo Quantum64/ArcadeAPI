@@ -28,6 +28,8 @@ public interface Item {
 	public String getUseCounterLore();
 
 	public String getUseCounterTitle();
+	
+	public String getDisplayName();
 
 	public UUID getUuid();
 
@@ -59,7 +61,7 @@ public interface Item {
 
 	public boolean getCraftable();
 
-	public String getOrigion();
+	public String getOrigin();
 
 	public boolean getUseCounter();
 
@@ -103,7 +105,7 @@ public interface Item {
 
 	public void setCraftable(boolean craftable);
 
-	public void setOrigion(String origion);
+	public void setOrigin(String origion);
 
 	public void setUseCounter(boolean useCounter);
 
@@ -134,6 +136,22 @@ public interface Item {
 	public void setUnusualSalvagedColor(List<ChatColor> colors);
 
 	public LinkedQueue<ChatColor> getUnusualSalvagedColor();
+	
+	public boolean getDemo();
+	
+	public void setDemo(boolean demo);
+	
+	public String getDemoString();
+	
+	public void setDemoString(String s);
+	
+	public long getValidTo();
+	
+	public void setValidTo(long validTo);
+	
+	public String getValidToString();
+	
+	public void setValidToString(String s);
 	
 	public FieldStack getFieldStack();
 }

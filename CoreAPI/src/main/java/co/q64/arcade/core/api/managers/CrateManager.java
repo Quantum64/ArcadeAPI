@@ -63,7 +63,7 @@ public interface CrateManager extends Manager {
 	 * @param crate the crate object
 	 * @return the lore list
 	 */
-	public List<String> generateItemLore(String crateName, VirtualCrate crate);
+	public List<String> generateItemLore(String crateName, VirtualCrate crate, boolean real);
 
 	/**
 	 * Sets the executor that executes when a crate opens

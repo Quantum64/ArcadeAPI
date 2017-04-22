@@ -13,6 +13,7 @@ public enum Obtained {
 	DROPPED("Found randomly"), 
 	CRAFTED("Made through crafting"),
 	PROMOTION("Received in a promotional offer"),
+	REWARD("Recieved from the rewards crate"),
 	MARKET("Received from market"),
 	GIFT("Gift from a kind person");
 	
