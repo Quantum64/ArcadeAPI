@@ -126,6 +126,11 @@
 			<classifier>final</classifier>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>co.q64.arcade.foundation.api</groupId>
+			<artifactId>FoundationAPI</artifactId>
+			<classifier>final</classifier>
+		</dependency>
 	</dependencies>
 	<groupId>co.q64.arcade.core.api</groupId>
 </project>

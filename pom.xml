@@ -127,6 +127,12 @@
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
+				<groupId>co.q64.arcade.foundation.api</groupId>
+				<artifactId>FoundationAPI</artifactId>
+				<classifier>final</classifier>
+				<version>1.0</version>
+			</dependency>
+			<dependency>
 				<groupId>co.q64.arcade</groupId>
 				<artifactId>External</artifactId>
 				<classifier>final</classifier>
