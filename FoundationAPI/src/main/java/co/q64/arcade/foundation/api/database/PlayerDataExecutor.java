@@ -1,4 +1,4 @@
-package co.q64.arcade.core.api.database;
+package co.q64.arcade.foundation.api.database;
 
 import co.q64.arcade.foundation.api.annotation.inject.Noinject;
 import co.q64.arcade.foundation.api.database.objects.PlayerData;

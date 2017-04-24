@@ -1,4 +1,4 @@
-package co.q64.arcade.core.api.database.factory;
+package co.q64.arcade.foundation.api.database.factory;
 
 import java.util.UUID;
 

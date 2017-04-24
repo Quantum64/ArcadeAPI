@@ -1,12 +1,12 @@
-package co.q64.arcade.core.api.database.factory;
+package co.q64.arcade.foundation.api.database.factory;
 
 import org.apache.commons.dbutils.q64.handlers.BeanListHandler;
 
 import com.google.inject.assistedinject.Assisted;
 
-import co.q64.arcade.core.api.database.QueryExecutor;
 import co.q64.arcade.foundation.api.annotation.inject.Global;
 import co.q64.arcade.foundation.api.annotation.inject.Injectable;
+import co.q64.arcade.foundation.api.database.QueryExecutor;
 import co.q64.arcade.foundation.api.database.objects.GeneralData;
 import co.q64.arcade.foundation.api.database.objects.GetData;
 

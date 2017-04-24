@@ -1,4 +1,4 @@
-package co.q64.arcade.core.api.objects.general;
+package co.q64.arcade.foundation.api.objects.general;
 
 import co.q64.arcade.foundation.api.database.objects.GeneralData;
 

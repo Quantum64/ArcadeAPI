@@ -3,7 +3,7 @@ package co.q64.arcade.foundation.api.managers;
 import java.util.List;
 import java.util.UUID;
 
-import co.q64.arcade.core.api.database.QueryExecutor;
+import co.q64.arcade.foundation.api.database.QueryExecutor;
 import co.q64.arcade.foundation.api.database.objects.GeneralData;
 import co.q64.arcade.foundation.api.database.objects.PlayerData;
 
