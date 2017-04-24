@@ -4,7 +4,7 @@ import co.q64.arcade.core.api.reporting.PreparedCrashReport;
 import co.q64.arcade.foundation.api.annotation.inject.Global;
 import co.q64.arcade.foundation.api.annotation.inject.Injectable;
 import co.q64.arcade.foundation.api.managers.Manager;
-import co.q64.arcade.foundation.api.util.MessageReceiver;
+import co.q64.arcade.foundation.api.util.message.MessageReceiver;
 
 /**
  * A system for submitting serious errors, this shows detailed information

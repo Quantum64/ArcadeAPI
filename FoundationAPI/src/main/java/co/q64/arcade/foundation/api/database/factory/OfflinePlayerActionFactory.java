@@ -5,7 +5,7 @@ import co.q64.arcade.foundation.api.annotation.inject.Injectable;
 import co.q64.arcade.foundation.api.database.OfflinePlayerAction;
 import co.q64.arcade.foundation.api.database.PlayerDataExecutor;
 import co.q64.arcade.foundation.api.database.objects.PlayerData;
-import co.q64.arcade.foundation.api.util.MessageReceiver;
+import co.q64.arcade.foundation.api.util.message.MessageReceiver;
 
 /**
  * Creates an object that allows a player's data to be accessed while they are offline
