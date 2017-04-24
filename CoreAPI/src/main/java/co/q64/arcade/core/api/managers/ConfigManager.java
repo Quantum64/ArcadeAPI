@@ -2,6 +2,7 @@ package co.q64.arcade.core.api.managers;
 
 import java.io.File;
 
+import co.q64.arcade.foundation.api.managers.Manager;
 import co.q64.arcade.core.api.config.ConfigSection;
 import co.q64.arcade.core.api.config.ConfigSettings;
 import co.q64.arcade.foundation.api.annotation.inject.Global;

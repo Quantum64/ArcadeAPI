@@ -2,6 +2,7 @@ package co.q64.arcade.core.api.managers;
 
 import org.bukkit.entity.Player;
 
+import co.q64.arcade.foundation.api.managers.Manager;
 import co.q64.arcade.core.api.craft.CraftExecutor;
 import co.q64.arcade.core.api.craft.CraftTemplate;
 import co.q64.arcade.foundation.api.annotation.inject.Global;

@@ -2,6 +2,7 @@ package co.q64.arcade.core.api.managers;
 
 import org.bukkit.entity.Player;
 
+import co.q64.arcade.foundation.api.managers.Manager;
 import co.q64.arcade.core.api.transact.Currency;
 import co.q64.arcade.core.api.transact.Result;
 import co.q64.arcade.foundation.api.annotation.inject.Global;

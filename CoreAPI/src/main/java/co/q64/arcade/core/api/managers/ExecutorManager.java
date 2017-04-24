@@ -1,5 +1,6 @@
 package co.q64.arcade.core.api.managers;
 
+import co.q64.arcade.foundation.api.managers.Manager;
 import co.q64.arcade.core.api.executor.ArgumentMap;
 import co.q64.arcade.core.api.executor.Executable;
 import co.q64.arcade.core.api.executor.Executor;

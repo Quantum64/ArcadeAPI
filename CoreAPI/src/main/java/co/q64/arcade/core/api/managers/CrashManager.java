@@ -1,10 +1,10 @@
 package co.q64.arcade.core.api.managers;
 
-import org.bukkit.command.CommandSender;
-
 import co.q64.arcade.core.api.reporting.PreparedCrashReport;
 import co.q64.arcade.foundation.api.annotation.inject.Global;
 import co.q64.arcade.foundation.api.annotation.inject.Injectable;
+import co.q64.arcade.foundation.api.managers.Manager;
+import co.q64.arcade.foundation.api.util.MessageReceiver;
 
 /**
  * A system for submitting serious errors, this shows detailed information
@@ -26,7 +26,7 @@ public interface CrashManager extends Manager {
 	 * @param report the report to submit
 	 * @param sender the user to send the link to
 	 */
-	public void submitReport(PreparedCrashReport report, CommandSender sender);
+	public void submitReport(PreparedCrashReport report, MessageReceiver sender);
 
 	/**
 	 * Submits a report and sends it to the user using a paste web service,
@@ -35,5 +35,5 @@ public interface CrashManager extends Manager {
 	 * @param sender the user to send the link to
 	 * @param message a custom message to send with the link
 	 */
-	public void submitReport(PreparedCrashReport report, CommandSender sender, String message);
+	public void submitReport(PreparedCrashReport report, MessageReceiver sender, String message);
 }

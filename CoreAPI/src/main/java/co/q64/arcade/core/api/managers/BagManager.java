@@ -3,6 +3,7 @@ package co.q64.arcade.core.api.managers;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 
+import co.q64.arcade.foundation.api.managers.Manager;
 import co.q64.arcade.core.api.bag.BagLibrary;
 import co.q64.arcade.foundation.api.annotation.inject.Global;
 import co.q64.arcade.foundation.api.annotation.inject.Injectable;

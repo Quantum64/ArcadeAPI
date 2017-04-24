@@ -9,6 +9,7 @@ import org.bukkit.entity.Player;
 import co.q64.arcade.core.api.objects.log.RecordedEvent;
 import co.q64.arcade.foundation.api.annotation.inject.Global;
 import co.q64.arcade.foundation.api.annotation.inject.Injectable;
+import co.q64.arcade.foundation.api.managers.Manager;
 
 @Injectable
 @Global

@@ -6,10 +6,10 @@ import java.util.UUID;
 import javax.annotation.Nullable;
 
 import org.bukkit.OfflinePlayer;
-import org.bukkit.command.CommandSender;
 
 import co.q64.arcade.foundation.api.annotation.inject.Global;
 import co.q64.arcade.foundation.api.annotation.inject.Injectable;
+import co.q64.arcade.foundation.api.util.MessageReceiver;
 
 /**
  * Allows names to be converted to UUIDs or OfflinePlayers
@@ -39,7 +39,7 @@ public interface UUIDService {
 	 * @param cs command sender to print the error if the uuid cannot be resolved
 	 * @return UUID if the name is valid or an empty optional if it is not
 	 */
-	public Optional<UUID> getUUID(String name, @Nullable CommandSender cs);
+	public Optional<UUID> getUUID(String name, @Nullable MessageReceiver cs);
 
 	/**
 	 * Converts a player name to an OfflinePlayer
@@ -47,5 +47,5 @@ public interface UUIDService {
 	 * @param cs command sender to print error if player cannot be resolved
 	 * @return OfflinePlayer if the name is valid or an empty optional if it is not
 	 */
-	public Optional<OfflinePlayer> getOfflinePlayer(String name, @Nullable CommandSender cs);
+	public Optional<OfflinePlayer> getOfflinePlayer(String name, @Nullable MessageReceiver cs);
 }

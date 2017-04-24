@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.bukkit.entity.Player;
 
+import co.q64.arcade.foundation.api.managers.Manager;
 import co.q64.arcade.core.api.filter.FilterMenu;
 import co.q64.arcade.core.api.filter.FilterMenuCallback;
 import co.q64.arcade.core.api.filter.ItemFilter;

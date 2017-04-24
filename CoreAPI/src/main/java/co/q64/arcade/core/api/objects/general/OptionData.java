@@ -1,6 +1,6 @@
 package co.q64.arcade.core.api.objects.general;
 
-import co.q64.arcade.core.api.database.objects.GeneralData;
+import co.q64.arcade.foundation.api.database.objects.GeneralData;
 
 public interface OptionData extends GeneralData {
 	public String getName();

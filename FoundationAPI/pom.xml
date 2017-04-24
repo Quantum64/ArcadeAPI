@@ -99,6 +99,12 @@
 			<classifier>final</classifier>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>co.q64.arcade.api</groupId>
+			<artifactId>ArcadeLoaderAPI</artifactId>
+			<classifier>final</classifier>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 	<groupId>co.q64.arcade.foundation.api</groupId>
 </project>
