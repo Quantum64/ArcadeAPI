@@ -3,8 +3,8 @@ package co.q64.arcade.core.api.util.database;
 import java.util.Map;
 import java.util.Optional;
 
-import co.q64.arcade.core.api.annotation.inject.Global;
-import co.q64.arcade.core.api.annotation.inject.Injectable;
+import co.q64.arcade.foundation.api.annotation.inject.Global;
+import co.q64.arcade.foundation.api.annotation.inject.Injectable;
 
 /**
  * A utility for introspecting beans

@@ -5,7 +5,7 @@ import java.util.List;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
-import co.q64.arcade.core.api.annotation.inject.Noinject;
+import co.q64.arcade.foundation.api.annotation.inject.Noinject;
 
 /**
  * Represents a set of grab bags that should appear together with one theme

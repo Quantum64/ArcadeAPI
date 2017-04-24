@@ -1,6 +1,6 @@
 package co.q64.arcade.core.api.lang;
 
-import co.q64.arcade.core.api.annotation.inject.Noinject;
+import co.q64.arcade.foundation.api.annotation.inject.Noinject;
 
 @Noinject
 public class Pair<X, Y> {

@@ -2,9 +2,9 @@ package co.q64.arcade.core.api.managers;
 
 import org.bukkit.command.CommandSender;
 
-import co.q64.arcade.core.api.annotation.inject.Global;
-import co.q64.arcade.core.api.annotation.inject.Injectable;
 import co.q64.arcade.core.api.reporting.PreparedCrashReport;
+import co.q64.arcade.foundation.api.annotation.inject.Global;
+import co.q64.arcade.foundation.api.annotation.inject.Injectable;
 
 /**
  * A system for submitting serious errors, this shows detailed information

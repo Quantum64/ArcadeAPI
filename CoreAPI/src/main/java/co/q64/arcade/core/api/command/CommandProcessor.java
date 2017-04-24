@@ -2,7 +2,7 @@ package co.q64.arcade.core.api.command;
 
 import org.bukkit.command.CommandSender;
 
-import co.q64.arcade.core.api.annotation.inject.Noinject;
+import co.q64.arcade.foundation.api.annotation.inject.Noinject;
 
 /**
  * Command processor for handling arcade style commands

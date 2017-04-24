@@ -1,4 +1,4 @@
-package co.q64.arcade.core.api.annotation.database;
+package co.q64.arcade.foundation.api.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;
@@ -6,9 +6,14 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+/**
+ * Prevents the player data watcher from automatically updating
+ * fields annotated with this annotation
+ * @author Dylan
+ *
+ */
 @Inherited
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.TYPE)
-public @interface Table {
-	public String value();
+@Target(ElementType.FIELD)
+public @interface Unobservable {
 }

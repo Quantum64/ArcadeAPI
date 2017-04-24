@@ -8,8 +8,8 @@ import javax.annotation.Nullable;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.command.CommandSender;
 
-import co.q64.arcade.core.api.annotation.inject.Global;
-import co.q64.arcade.core.api.annotation.inject.Injectable;
+import co.q64.arcade.foundation.api.annotation.inject.Global;
+import co.q64.arcade.foundation.api.annotation.inject.Injectable;
 
 /**
  * Allows names to be converted to UUIDs or OfflinePlayers

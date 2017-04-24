@@ -4,8 +4,8 @@ import org.bukkit.Material;
 
 import com.google.inject.assistedinject.Assisted;
 
-import co.q64.arcade.core.api.annotation.inject.Global;
-import co.q64.arcade.core.api.annotation.inject.Injectable;
+import co.q64.arcade.foundation.api.annotation.inject.Global;
+import co.q64.arcade.foundation.api.annotation.inject.Injectable;
 
 /**
  * Create crate libraries

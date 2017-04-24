@@ -1,6 +1,6 @@
 package co.q64.arcade.core.api.database;
 
-import co.q64.arcade.core.api.annotation.inject.Noinject;
+import co.q64.arcade.foundation.api.annotation.inject.Noinject;
 
 /**
  * Represents an executable that that retrieves a player's data while they are offline

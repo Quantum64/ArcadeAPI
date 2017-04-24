@@ -2,7 +2,7 @@ package co.q64.arcade.core.api.managers;
 
 import javax.inject.Inject;
 
-import co.q64.arcade.core.api.annotation.inject.Noinject;
+import co.q64.arcade.foundation.api.annotation.inject.Noinject;
 
 /**
  * Represents a stateless subsystem of this component

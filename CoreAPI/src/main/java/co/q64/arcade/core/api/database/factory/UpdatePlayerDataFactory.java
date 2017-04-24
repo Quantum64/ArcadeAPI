@@ -1,10 +1,10 @@
 package co.q64.arcade.core.api.database.factory;
 
-import co.q64.arcade.core.api.annotation.inject.Global;
-import co.q64.arcade.core.api.annotation.inject.Injectable;
 import co.q64.arcade.core.api.database.QueryExecutor;
 import co.q64.arcade.core.api.database.objects.PlayerData;
 import co.q64.arcade.core.api.database.objects.UpdatePlayerData;
+import co.q64.arcade.foundation.api.annotation.inject.Global;
+import co.q64.arcade.foundation.api.annotation.inject.Injectable;
 
 /**
  * A factory that can be used for generating UpdateData queries

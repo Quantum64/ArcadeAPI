@@ -2,10 +2,10 @@ package co.q64.arcade.core.api.managers;
 
 import java.io.File;
 
-import co.q64.arcade.core.api.annotation.inject.Global;
-import co.q64.arcade.core.api.annotation.inject.Injectable;
 import co.q64.arcade.core.api.config.ConfigSection;
 import co.q64.arcade.core.api.config.ConfigSettings;
+import co.q64.arcade.foundation.api.annotation.inject.Global;
+import co.q64.arcade.foundation.api.annotation.inject.Injectable;
 
 /**
  * The central component for reading from and writing to config

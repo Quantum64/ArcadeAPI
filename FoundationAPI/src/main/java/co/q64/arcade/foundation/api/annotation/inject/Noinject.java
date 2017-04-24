@@ -1,4 +1,4 @@
-package co.q64.arcade.core.api.annotation.inject;
+package co.q64.arcade.foundation.api.annotation.inject;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

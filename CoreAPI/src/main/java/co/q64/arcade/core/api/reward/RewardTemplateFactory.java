@@ -6,9 +6,9 @@ import javax.annotation.Nullable;
 
 import com.google.inject.assistedinject.Assisted;
 
-import co.q64.arcade.core.api.annotation.inject.Injectable;
 import co.q64.arcade.core.api.implementable.PlayerExecutor;
 import co.q64.arcade.core.api.perm.Group;
+import co.q64.arcade.foundation.api.annotation.inject.Injectable;
 
 @Injectable
 public interface RewardTemplateFactory {

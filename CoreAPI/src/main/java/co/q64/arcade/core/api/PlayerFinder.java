@@ -2,8 +2,8 @@ package co.q64.arcade.core.api;
 
 import org.bukkit.entity.Player;
 
-import co.q64.arcade.core.api.annotation.inject.Global;
-import co.q64.arcade.core.api.annotation.inject.Injectable;
+import co.q64.arcade.foundation.api.annotation.inject.Global;
+import co.q64.arcade.foundation.api.annotation.inject.Injectable;
 
 /**
  * Finds players based on their commonly used chat name

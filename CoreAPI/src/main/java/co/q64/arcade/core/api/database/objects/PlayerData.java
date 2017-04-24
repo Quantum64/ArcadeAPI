@@ -2,7 +2,7 @@ package co.q64.arcade.core.api.database.objects;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import co.q64.arcade.core.api.annotation.inject.Noinject;
+import co.q64.arcade.foundation.api.annotation.inject.Noinject;
 
 /**
  * Represents a primitive player data that all player data objects must implement

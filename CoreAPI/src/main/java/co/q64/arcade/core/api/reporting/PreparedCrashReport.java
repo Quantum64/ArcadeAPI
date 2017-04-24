@@ -2,7 +2,7 @@ package co.q64.arcade.core.api.reporting;
 
 import java.util.List;
 
-import co.q64.arcade.core.api.annotation.inject.Noinject;
+import co.q64.arcade.foundation.api.annotation.inject.Noinject;
 
 /**
  * A packaged crash report that is ready for deployment

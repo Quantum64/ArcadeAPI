@@ -1,4 +1,4 @@
-package co.q64.arcade.core.api.annotation.database;
+package co.q64.arcade.foundation.api.annotation.database;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;
@@ -15,5 +15,5 @@ import java.lang.annotation.Target;
 @Inherited
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
-public @interface Primary {
+public @interface ColossalString {
 }

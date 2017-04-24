@@ -4,8 +4,8 @@ import java.sql.SQLException;
 
 import org.apache.commons.dbutils.q64.ResultSetHandler;
 
-import co.q64.arcade.core.api.annotation.inject.Global;
-import co.q64.arcade.core.api.annotation.inject.Injectable;
+import co.q64.arcade.foundation.api.annotation.inject.Global;
+import co.q64.arcade.foundation.api.annotation.inject.Injectable;
 
 /**
  * Represents an object capable of executing SQL queries

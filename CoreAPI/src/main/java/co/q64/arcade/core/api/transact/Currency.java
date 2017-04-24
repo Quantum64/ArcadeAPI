@@ -2,7 +2,7 @@ package co.q64.arcade.core.api.transact;
 
 import org.bukkit.entity.Player;
 
-import co.q64.arcade.core.api.annotation.inject.Noinject;
+import co.q64.arcade.foundation.api.annotation.inject.Noinject;
 
 /**
  * Represents a currency that can be used for transactions

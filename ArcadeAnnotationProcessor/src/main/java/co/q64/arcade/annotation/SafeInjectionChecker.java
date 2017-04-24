@@ -16,8 +16,8 @@ import javax.lang.model.type.TypeMirror;
 import javax.lang.model.util.Types;
 import javax.tools.Diagnostic;
 
-import co.q64.arcade.core.api.annotation.inject.Injectable;
-import co.q64.arcade.core.api.annotation.inject.Noinject;
+import co.q64.arcade.foundation.api.annotation.inject.Injectable;
+import co.q64.arcade.foundation.api.annotation.inject.Noinject;
 
 @SupportedAnnotationTypes("javax.inject.Inject")
 @SupportedSourceVersion(SourceVersion.RELEASE_8)

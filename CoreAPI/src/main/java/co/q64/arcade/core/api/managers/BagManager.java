@@ -3,9 +3,9 @@ package co.q64.arcade.core.api.managers;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 
-import co.q64.arcade.core.api.annotation.inject.Global;
-import co.q64.arcade.core.api.annotation.inject.Injectable;
 import co.q64.arcade.core.api.bag.BagLibrary;
+import co.q64.arcade.foundation.api.annotation.inject.Global;
+import co.q64.arcade.foundation.api.annotation.inject.Injectable;
 
 /**
  * System for setting up grab bags, which are limited time crates that

@@ -4,11 +4,11 @@ import org.apache.commons.dbutils.q64.handlers.BeanListHandler;
 
 import com.google.inject.assistedinject.Assisted;
 
-import co.q64.arcade.core.api.annotation.inject.Global;
-import co.q64.arcade.core.api.annotation.inject.Injectable;
 import co.q64.arcade.core.api.database.QueryExecutor;
 import co.q64.arcade.core.api.database.objects.GeneralData;
 import co.q64.arcade.core.api.database.objects.GetData;
+import co.q64.arcade.foundation.api.annotation.inject.Global;
+import co.q64.arcade.foundation.api.annotation.inject.Injectable;
 
 @Injectable
 @Global

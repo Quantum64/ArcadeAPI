@@ -6,8 +6,8 @@ import java.util.List;
 
 import org.bukkit.ChatColor;
 
-import co.q64.arcade.core.api.annotation.inject.Noinject;
-import co.q64.arcade.core.api.annotation.inject.Universal;
+import co.q64.arcade.foundation.api.annotation.inject.Noinject;
+import co.q64.arcade.foundation.api.annotation.inject.Universal;
 
 @Noinject
 @Universal

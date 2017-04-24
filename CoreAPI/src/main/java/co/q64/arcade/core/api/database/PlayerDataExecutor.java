@@ -1,7 +1,7 @@
 package co.q64.arcade.core.api.database;
 
-import co.q64.arcade.core.api.annotation.inject.Noinject;
 import co.q64.arcade.core.api.database.objects.PlayerData;
+import co.q64.arcade.foundation.api.annotation.inject.Noinject;
 
 /**
  * Runs an action given player data, usually used when the data is not directly

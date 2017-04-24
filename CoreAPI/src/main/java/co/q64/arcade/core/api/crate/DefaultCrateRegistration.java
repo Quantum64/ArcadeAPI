@@ -1,6 +1,6 @@
 package co.q64.arcade.core.api.crate;
 
-import co.q64.arcade.core.api.annotation.inject.Injectable;
+import co.q64.arcade.foundation.api.annotation.inject.Injectable;
 
 /**
  * Registers default crates for this module

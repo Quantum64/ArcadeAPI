@@ -4,9 +4,9 @@ import java.util.UUID;
 
 import org.bukkit.Location;
 
-import co.q64.arcade.core.api.annotation.inject.Global;
-import co.q64.arcade.core.api.annotation.inject.Injectable;
 import co.q64.arcade.core.api.holo.HoloTextGetter;
+import co.q64.arcade.foundation.api.annotation.inject.Global;
+import co.q64.arcade.foundation.api.annotation.inject.Injectable;
 
 @Injectable
 @Global
