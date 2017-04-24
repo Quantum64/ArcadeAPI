@@ -2,7 +2,6 @@ package co.q64.arcade.core.api.managers;
 
 import org.bukkit.entity.Player;
 
-import co.q64.arcade.foundation.api.managers.Manager;
 import co.q64.arcade.core.api.implementable.SelectItemExecutor;
 import co.q64.arcade.core.api.objects.item.Item;
 import co.q64.arcade.core.api.objects.item.factory.ItemConstructor;
@@ -10,6 +9,7 @@ import co.q64.arcade.core.api.objects.item.factory.ItemDeserializer;
 import co.q64.arcade.core.api.quality.Quality;
 import co.q64.arcade.foundation.api.annotation.inject.Global;
 import co.q64.arcade.foundation.api.annotation.inject.Injectable;
+import co.q64.arcade.foundation.api.managers.Manager;
 
 @Injectable
 @Global

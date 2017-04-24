@@ -1,12 +1,12 @@
 package co.q64.arcade.foundation.api.database.factory;
 
-import com.google.inject.assistedinject.Assisted;
-
 import co.q64.arcade.foundation.api.annotation.inject.Global;
 import co.q64.arcade.foundation.api.annotation.inject.Injectable;
 import co.q64.arcade.foundation.api.database.QueryExecutor;
 import co.q64.arcade.foundation.api.database.objects.GeneralData;
 import co.q64.arcade.foundation.api.database.objects.UpdateData;
+
+import com.google.inject.assistedinject.Assisted;
 
 @Injectable
 @Global

@@ -1,9 +1,9 @@
 package co.q64.arcade.core.api.command;
 
-import com.google.inject.assistedinject.Assisted;
-
 import co.q64.arcade.foundation.api.annotation.inject.Global;
 import co.q64.arcade.foundation.api.annotation.inject.Injectable;
+
+import com.google.inject.assistedinject.Assisted;
 
 @Global
 @Injectable

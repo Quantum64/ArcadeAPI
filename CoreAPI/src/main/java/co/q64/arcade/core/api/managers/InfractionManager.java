@@ -5,9 +5,9 @@ import java.util.concurrent.Future;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import co.q64.arcade.foundation.api.managers.Manager;
 import co.q64.arcade.foundation.api.annotation.inject.Global;
 import co.q64.arcade.foundation.api.annotation.inject.Injectable;
+import co.q64.arcade.foundation.api.managers.Manager;
 
 @Injectable
 @Global

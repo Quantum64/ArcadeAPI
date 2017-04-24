@@ -1,10 +1,10 @@
 package co.q64.arcade.core.api.inject;
 
-import com.google.inject.Binder;
-import com.google.inject.multibindings.Multibinder;
-
 import co.q64.arcade.foundation.api.annotation.inject.Noinject;
 import co.q64.arcade.foundation.api.annotation.inject.Universal;
+
+import com.google.inject.Binder;
+import com.google.inject.multibindings.Multibinder;
 
 /**
  * Utilities for binding common core classes
