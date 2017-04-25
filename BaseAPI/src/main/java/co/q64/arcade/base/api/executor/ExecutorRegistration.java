@@ -1,5 +1,5 @@
 
-package co.q64.arcade.core.api.executor;
+package co.q64.arcade.base.api.executor;
 
 import co.q64.arcade.base.api.annotation.inject.Global;
 import co.q64.arcade.base.api.annotation.inject.Injectable;

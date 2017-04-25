@@ -1,10 +1,10 @@
-package co.q64.arcade.base.api.player.factory;
+package co.q64.arcade.base.api.world.factory;
 
 import java.util.Collection;
 import java.util.UUID;
 
 import co.q64.arcade.base.api.annotation.inject.Injectable;
-import co.q64.arcade.base.api.player.BasePlayer;
+import co.q64.arcade.base.api.world.BasePlayer;
 
 @Injectable
 public interface BasePlayerFactory {
