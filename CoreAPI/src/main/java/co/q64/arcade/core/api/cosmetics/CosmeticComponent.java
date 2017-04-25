@@ -1,9 +1,8 @@
 package co.q64.arcade.core.api.cosmetics;
 
-import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
-
 import co.q64.arcade.base.api.annotation.inject.Noinject;
+import co.q64.arcade.base.api.container.BaseItemStack;
+import co.q64.arcade.base.api.container.BasePlayer;
 
 /**
  * Represents a cosmetic component that can appear in the
@@ -25,7 +24,7 @@ public interface CosmeticComponent {
 	 * cosmetics menu
 	 * @return the component icon
 	 */
-	public ItemStack getIcon();
+	public BaseItemStack getIcon();
 
 	/**
 	 * Gets the slot this should appear in the main cosmetics menu
@@ -39,23 +38,23 @@ public interface CosmeticComponent {
 	 * from core
 	 * @param player the player to open the menu for
 	 */
-	public void openMenu(Player player);
+	public void openMenu(BasePlayer player);
 
 	/**
 	 * Removes this cosmetic from being active on the given player
 	 * @param player the player to clear
 	 */
-	public void clear(Player player);
+	public void clear(BasePlayer player);
 
 	/**
 	 * Disables this component for the given player
 	 * @param player the player to disable the component for
 	 */
-	public void disable(Player player);
+	public void disable(BasePlayer player);
 
 	/**
 	 * Enables this component for the given player
 	 * @param player the player to enable the compoent for
 	 */
-	public void enable(Player player);
+	public void enable(BasePlayer player);
 }

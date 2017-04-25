@@ -3,11 +3,10 @@ package co.q64.arcade.core.api.managers;
 import java.util.List;
 import java.util.UUID;
 
-import org.bukkit.command.CommandSender;
-
 import co.q64.arcade.base.api.annotation.inject.Global;
 import co.q64.arcade.base.api.annotation.inject.Injectable;
 import co.q64.arcade.base.api.managers.Manager;
+import co.q64.arcade.base.api.util.message.MessageReceiver;
 import co.q64.arcade.core.api.perm.Group;
 
 /**
@@ -23,7 +22,7 @@ public interface PermissionManager extends Manager {
 	 * @param group the group
 	 * @return if the player is in the group
 	 */
-	public boolean inGroup(CommandSender sender, Group group);
+	public boolean inGroup(MessageReceiver sender, Group group);
 
 	/**
 	 * Returns if a player is in the provided group exactly
@@ -31,7 +30,7 @@ public interface PermissionManager extends Manager {
 	 * @param group the group
 	 * @return if the player is in the group
 	 */
-	public boolean inGroupExact(CommandSender sender, Group group);
+	public boolean inGroupExact(MessageReceiver sender, Group group);
 
 	/**
 	 * Returns if a player is in the provided group or any extension of that group
@@ -54,7 +53,7 @@ public interface PermissionManager extends Manager {
 	 * @param sender the requester
 	 * @param playerName the player to remove groups from
 	 */
-	public void clear(CommandSender sender, String playerName);
+	public void clear(MessageReceiver sender, String playerName);
 
 	/**
 	 * Removes a player from all groups except the provided one
@@ -62,7 +61,7 @@ public interface PermissionManager extends Manager {
 	 * @param playerName the player
 	 * @param group the group to set the player to
 	 */
-	public void setGroup(CommandSender sender, String playerName, String group);
+	public void setGroup(MessageReceiver sender, String playerName, String group);
 
 	/**
 	 * Adds a group to the player's group list
@@ -70,7 +69,7 @@ public interface PermissionManager extends Manager {
 	 * @param playerName the name of the player to add thr group of
 	 * @param group the group to add them to
 	 */
-	public void addGroup(CommandSender sender, String playerName, String group);
+	public void addGroup(MessageReceiver sender, String playerName, String group);
 
 	/**
 	 * Removes a group from the player's group list
@@ -79,14 +78,14 @@ public interface PermissionManager extends Manager {
 	 * @param playerName the player to remove thr group from
 	 * @param group the group to remove
 	 */
-	public void removeGroup(CommandSender sender, String playerName, String group);
+	public void removeGroup(MessageReceiver sender, String playerName, String group);
 
 	/**
 	 * Sends all the groups a player is in to the requester
 	 * @param sender the requester
 	 * @param playerName the name of the player to get the groups of
 	 */
-	public void listGroups(CommandSender sender, String playerName);
+	public void listGroups(MessageReceiver sender, String playerName);
 
 	/**
 	 * Get all the classes that contain registered groups, this will almost alwyas be enums

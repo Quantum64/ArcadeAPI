@@ -1,16 +1,17 @@
 package co.q64.arcade.core.api.util.tab;
 
 import org.bukkit.ChatColor;
-import org.bukkit.entity.Player;
+
+import co.q64.arcade.base.api.container.BasePlayer;
 
 public interface ListnameFormatSupplier {
-	public abstract ChatColor[] getListnameColors(Player p);
+	public abstract ChatColor[] getListnameColors(BasePlayer p);
 
 	public abstract Priority getPriority();
 
 	public abstract boolean getContinue();
 
-	public default ChatColor getListnameFormat(Player p) {
+	public default ChatColor getListnameFormat(BasePlayer p) {
 		return null;
 	}
 

@@ -25,5 +25,8 @@ public interface ConstantBinders {
 	@Target({ ElementType.FIELD }) @Retention(RUNTIME) @BindingAnnotation
 	public static @interface ConsoleMessageReceiver {}
 	
+	@Target({ ElementType.FIELD }) @Retention(RUNTIME) @BindingAnnotation
+	public static @interface DataFolder {}
+	
 	//formatter:on
 }

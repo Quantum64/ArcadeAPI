@@ -1,10 +1,10 @@
 package co.q64.arcade.core.api.managers;
 
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 
 import co.q64.arcade.base.api.annotation.inject.Global;
 import co.q64.arcade.base.api.annotation.inject.Injectable;
+import co.q64.arcade.base.api.container.BaseMaterial;
 import co.q64.arcade.base.api.managers.Manager;
 import co.q64.arcade.core.api.bag.BagLibrary;
 
@@ -37,7 +37,7 @@ public interface BagManager extends Manager {
 	 * Gets the icon that should be displayed in the cosmetics menu
 	 * @return the icon
 	 */
-	public Material getIconMaterial();
+	public BaseMaterial getIconMaterial();
 
 	/**
 	 * Gets the name of the current grab bag selection

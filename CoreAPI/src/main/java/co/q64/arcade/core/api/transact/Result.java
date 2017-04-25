@@ -1,8 +1,7 @@
 package co.q64.arcade.core.api.transact;
 
-import org.bukkit.entity.Player;
-
 import co.q64.arcade.base.api.annotation.inject.Noinject;
+import co.q64.arcade.base.api.container.BasePlayer;
 
 /**
  * The result of a transaction attempt
@@ -12,5 +11,5 @@ import co.q64.arcade.base.api.annotation.inject.Noinject;
 @FunctionalInterface
 @Noinject(reason = Noinject.DATA)
 public interface Result<T> {
-	public void onTransaction(Player p, boolean completed, T argument);
+	public void onTransaction(BasePlayer p, boolean completed, T argument);
 }
