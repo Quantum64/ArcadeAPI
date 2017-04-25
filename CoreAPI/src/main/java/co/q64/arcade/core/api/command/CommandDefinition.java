@@ -4,9 +4,9 @@ import java.util.List;
 
 import org.bukkit.command.CommandSender;
 
+import co.q64.arcade.base.api.annotation.inject.Noinject;
 import co.q64.arcade.core.api.perm.DefaultGroups;
 import co.q64.arcade.core.api.perm.Group;
-import co.q64.arcade.foundation.api.annotation.inject.Noinject;
 
 @Noinject(reason = Noinject.IMPLEMENT)
 public interface CommandDefinition {

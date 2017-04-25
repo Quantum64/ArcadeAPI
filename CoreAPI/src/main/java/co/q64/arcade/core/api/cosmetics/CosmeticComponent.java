@@ -3,7 +3,7 @@ package co.q64.arcade.core.api.cosmetics;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-import co.q64.arcade.foundation.api.annotation.inject.Noinject;
+import co.q64.arcade.base.api.annotation.inject.Noinject;
 
 /**
  * Represents a cosmetic component that can appear in the

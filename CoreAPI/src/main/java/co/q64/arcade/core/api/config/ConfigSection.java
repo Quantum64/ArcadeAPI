@@ -2,7 +2,7 @@ package co.q64.arcade.core.api.config;
 
 import java.util.List;
 
-import co.q64.arcade.foundation.api.annotation.inject.Noinject;
+import co.q64.arcade.base.api.annotation.inject.Noinject;
 
 /**
  * Represents a section of a config file

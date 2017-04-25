@@ -4,8 +4,8 @@ import java.util.List;
 
 import org.bukkit.entity.Player;
 
+import co.q64.arcade.base.api.annotation.inject.Noinject;
 import co.q64.arcade.core.api.objects.item.Item;
-import co.q64.arcade.foundation.api.annotation.inject.Noinject;
 
 /**
  * Represents an implementable object for getting information about a crate

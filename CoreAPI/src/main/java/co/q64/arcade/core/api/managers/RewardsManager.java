@@ -6,12 +6,12 @@ import org.bukkit.FireworkEffect;
 import org.bukkit.entity.ArmorStand;
 import org.bukkit.entity.Player;
 
+import co.q64.arcade.base.api.annotation.inject.Global;
+import co.q64.arcade.base.api.annotation.inject.Injectable;
+import co.q64.arcade.base.api.managers.Manager;
 import co.q64.arcade.core.api.implementable.PlayerExecutor;
 import co.q64.arcade.core.api.perm.Group;
 import co.q64.arcade.core.api.reward.RewardTemplate;
-import co.q64.arcade.foundation.api.annotation.inject.Global;
-import co.q64.arcade.foundation.api.annotation.inject.Injectable;
-import co.q64.arcade.foundation.api.managers.Manager;
 
 @Injectable
 @Global

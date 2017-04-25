@@ -9,9 +9,9 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
 import co.q64.arcade.api.lang.LinkedQueue;
+import co.q64.arcade.base.api.annotation.inject.Noinject;
 import co.q64.arcade.core.api.objects.item.core.FieldStack;
 import co.q64.arcade.core.api.quality.Quality;
-import co.q64.arcade.foundation.api.annotation.inject.Noinject;
 
 @Noinject(reason = Noinject.DATA)
 public interface Item {

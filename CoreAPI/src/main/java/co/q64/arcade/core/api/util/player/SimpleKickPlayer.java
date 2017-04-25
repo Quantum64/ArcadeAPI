@@ -9,7 +9,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 
-import co.q64.arcade.foundation.api.util.player.KickPlayer;
+import co.q64.arcade.base.api.util.player.KickPlayer;
 
 @Singleton
 public class SimpleKickPlayer implements KickPlayer {

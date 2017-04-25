@@ -1,6 +1,6 @@
 package co.q64.arcade.core.api.executor;
 
-import co.q64.arcade.foundation.api.annotation.inject.Noinject;
+import co.q64.arcade.base.api.annotation.inject.Noinject;
 
 /**
  * The most basic argument map to be used with an Executable

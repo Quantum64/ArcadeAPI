@@ -2,8 +2,8 @@ package co.q64.arcade.core.api.bag;
 
 import java.util.List;
 
+import co.q64.arcade.base.api.annotation.inject.Noinject;
 import co.q64.arcade.core.api.objects.item.Item;
-import co.q64.arcade.foundation.api.annotation.inject.Noinject;
 
 /**
  * Represents a grab bag that can be opened by players and drops items

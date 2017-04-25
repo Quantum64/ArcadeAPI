@@ -1,9 +1,9 @@
 package co.q64.arcade.core.api.util;
 
+import co.q64.arcade.base.api.annotation.inject.Global;
+import co.q64.arcade.base.api.annotation.inject.Injectable;
 import co.q64.arcade.core.api.craft.CraftExecutor;
 import co.q64.arcade.core.api.craft.CraftTemplate;
-import co.q64.arcade.foundation.api.annotation.inject.Global;
-import co.q64.arcade.foundation.api.annotation.inject.Injectable;
 
 /**
  * A registry that stores crafting recipes for the cosmetics crafting system

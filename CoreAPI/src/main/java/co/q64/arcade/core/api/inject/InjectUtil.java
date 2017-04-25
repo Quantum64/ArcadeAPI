@@ -1,7 +1,7 @@
 package co.q64.arcade.core.api.inject;
 
-import co.q64.arcade.foundation.api.annotation.inject.Noinject;
-import co.q64.arcade.foundation.api.annotation.inject.Universal;
+import co.q64.arcade.base.api.annotation.inject.Noinject;
+import co.q64.arcade.base.api.annotation.inject.Universal;
 
 import com.google.inject.Binder;
 import com.google.inject.multibindings.Multibinder;

@@ -2,8 +2,8 @@ package co.q64.arcade.core.api.crate;
 
 import org.bukkit.entity.Player;
 
+import co.q64.arcade.base.api.annotation.inject.Noinject;
 import co.q64.arcade.core.api.objects.item.Item;
-import co.q64.arcade.foundation.api.annotation.inject.Noinject;
 
 /**
  * Executes when crates are opened, should be

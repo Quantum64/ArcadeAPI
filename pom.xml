@@ -127,8 +127,8 @@
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
-				<groupId>co.q64.arcade.foundation.api</groupId>
-				<artifactId>FoundationAPI</artifactId>
+				<groupId>co.q64.arcade.base.api</groupId>
+				<artifactId>BaseAPI</artifactId>
 				<classifier>final</classifier>
 				<version>1.0</version>
 			</dependency>
@@ -152,7 +152,7 @@
 
 	<modules>
 		<module>ArcadeLoaderAPI</module>
-		<module>FoundationAPI</module>
+		<module>BaseAPI</module>
 		<module>CoreAPI</module>
 		<module>GameAPI</module>
 		<module>ArcadeAnnotationProcessor</module>

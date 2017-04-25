@@ -1,6 +1,6 @@
 package co.q64.arcade.core.api.quality;
 
-import co.q64.arcade.foundation.api.annotation.inject.Noinject;
+import co.q64.arcade.base.api.annotation.inject.Noinject;
 
 /**
  * Quality of an ArcadeItem

@@ -127,8 +127,8 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>co.q64.arcade.foundation.api</groupId>
-			<artifactId>FoundationAPI</artifactId>
+			<groupId>co.q64.arcade.base.api</groupId>
+			<artifactId>BaseAPI</artifactId>
 			<classifier>final</classifier>
 		</dependency>
 	</dependencies>

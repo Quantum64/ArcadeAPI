@@ -7,9 +7,9 @@ import javax.annotation.Nullable;
 
 import org.bukkit.OfflinePlayer;
 
-import co.q64.arcade.foundation.api.annotation.inject.Global;
-import co.q64.arcade.foundation.api.annotation.inject.Injectable;
-import co.q64.arcade.foundation.api.util.message.MessageReceiver;
+import co.q64.arcade.base.api.annotation.inject.Global;
+import co.q64.arcade.base.api.annotation.inject.Injectable;
+import co.q64.arcade.base.api.util.message.MessageReceiver;
 
 /**
  * Allows names to be converted to UUIDs or OfflinePlayers

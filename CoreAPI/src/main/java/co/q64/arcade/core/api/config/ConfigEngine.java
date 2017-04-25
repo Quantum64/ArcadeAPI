@@ -2,8 +2,8 @@ package co.q64.arcade.core.api.config;
 
 import java.io.File;
 
-import co.q64.arcade.foundation.api.annotation.inject.Injectable;
-import co.q64.arcade.foundation.api.annotation.inject.Providable;
+import co.q64.arcade.base.api.annotation.inject.Injectable;
+import co.q64.arcade.base.api.annotation.inject.Providable;
 
 /**
  * The storage engine for config files, rebind this if you

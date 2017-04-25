@@ -1,6 +1,6 @@
 package co.q64.arcade.core.api.objects.log;
 
-import co.q64.arcade.foundation.api.annotation.inject.Injectable;
+import co.q64.arcade.base.api.annotation.inject.Injectable;
 
 import com.google.inject.assistedinject.Assisted;
 

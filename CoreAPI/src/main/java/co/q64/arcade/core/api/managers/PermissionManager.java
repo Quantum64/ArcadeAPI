@@ -5,10 +5,10 @@ import java.util.UUID;
 
 import org.bukkit.command.CommandSender;
 
+import co.q64.arcade.base.api.annotation.inject.Global;
+import co.q64.arcade.base.api.annotation.inject.Injectable;
+import co.q64.arcade.base.api.managers.Manager;
 import co.q64.arcade.core.api.perm.Group;
-import co.q64.arcade.foundation.api.annotation.inject.Global;
-import co.q64.arcade.foundation.api.annotation.inject.Injectable;
-import co.q64.arcade.foundation.api.managers.Manager;
 
 /**
  * The central component of AP (arcade permissions)

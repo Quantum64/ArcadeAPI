@@ -8,7 +8,7 @@ import javax.inject.Singleton;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
-import co.q64.arcade.foundation.api.util.player.UUIDNameConverter;
+import co.q64.arcade.base.api.util.player.UUIDNameConverter;
 
 @Singleton
 public class SimpleUUIDNameConverter implements UUIDNameConverter {
