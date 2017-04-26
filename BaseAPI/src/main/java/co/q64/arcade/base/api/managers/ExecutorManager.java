@@ -1,11 +1,10 @@
-package co.q64.arcade.core.api.managers;
+package co.q64.arcade.base.api.managers;
 
 import co.q64.arcade.base.api.annotation.inject.Global;
 import co.q64.arcade.base.api.annotation.inject.Injectable;
 import co.q64.arcade.base.api.executor.ArgumentMap;
 import co.q64.arcade.base.api.executor.Executable;
 import co.q64.arcade.base.api.executor.Executor;
-import co.q64.arcade.base.api.managers.Manager;
 
 @Injectable
 @Global
