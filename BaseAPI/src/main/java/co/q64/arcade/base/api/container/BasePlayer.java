@@ -1,10 +1,7 @@
-package co.q64.arcade.base.api.world;
+package co.q64.arcade.base.api.container;
 
 import java.util.UUID;
 
-import co.q64.arcade.base.api.annotation.inject.Noinject;
-
-@Noinject
 public interface BasePlayer {
 	public String getName();
 	
