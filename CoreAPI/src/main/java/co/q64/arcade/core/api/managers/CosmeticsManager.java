@@ -1,9 +1,8 @@
 package co.q64.arcade.core.api.managers;
 
-import org.bukkit.entity.Player;
-
 import co.q64.arcade.base.api.annotation.inject.Global;
 import co.q64.arcade.base.api.annotation.inject.Injectable;
+import co.q64.arcade.base.api.container.BasePlayer;
 import co.q64.arcade.base.api.managers.Manager;
 import co.q64.arcade.core.api.cosmetics.CosmeticComponent;
 
@@ -21,7 +20,7 @@ public interface CosmeticsManager extends Manager {
 	 * Opens the main cosmetics meny for a player
 	 * @param player the player to open the menu for
 	 */
-	public void open(Player player);
+	public void open(BasePlayer player);
 
 	/**
 	 * You should be regestering your components using a multibinder and you better

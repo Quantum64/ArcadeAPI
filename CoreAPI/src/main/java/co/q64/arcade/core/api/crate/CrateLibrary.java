@@ -1,8 +1,7 @@
 package co.q64.arcade.core.api.crate;
 
-import org.bukkit.Material;
-
 import co.q64.arcade.base.api.annotation.inject.Noinject;
+import co.q64.arcade.base.api.container.BaseMaterial;
 
 /**
  * Represents a crate that is displayed in the crates menu
@@ -27,7 +26,7 @@ public interface CrateLibrary {
 	 * Gets the item to represent the crate in the crates menu
 	 * @return the crate material
 	 */
-	public Material getCrateItem();
+	public BaseMaterial getCrateItem();
 
 	/**
 	 * Gets the virtual crate for generating items for this crate

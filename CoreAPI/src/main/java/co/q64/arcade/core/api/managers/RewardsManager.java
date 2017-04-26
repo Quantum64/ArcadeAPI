@@ -4,10 +4,10 @@ import java.util.List;
 
 import org.bukkit.FireworkEffect;
 import org.bukkit.entity.ArmorStand;
-import org.bukkit.entity.Player;
 
 import co.q64.arcade.base.api.annotation.inject.Global;
 import co.q64.arcade.base.api.annotation.inject.Injectable;
+import co.q64.arcade.base.api.container.BasePlayer;
 import co.q64.arcade.base.api.managers.Manager;
 import co.q64.arcade.core.api.implementable.PlayerExecutor;
 import co.q64.arcade.core.api.perm.Group;
@@ -30,15 +30,15 @@ public interface RewardsManager extends Manager {
 
 	public void registerReward(String name, String series, List<String> rewards, long delay, int slot, boolean claimOnce, Group g, PlayerExecutor onClaim);
 
-	public void openMenu(Player p);
+	public void openMenu(BasePlayer p);
 
-	public void openMenu(Player p, String series);
+	public void openMenu(BasePlayer p, String series);
 
-	public void createClaimLocation(Player p);
+	public void createClaimLocation(BasePlayer p);
 
-	public void createClaimLocation(Player p, String series);
+	public void createClaimLocation(BasePlayer p, String series);
 
-	public void delClaimLocation(Player p);
+	public void delClaimLocation(BasePlayer p);
 
 	public List<ArmorStand> getClaimLocations();
 

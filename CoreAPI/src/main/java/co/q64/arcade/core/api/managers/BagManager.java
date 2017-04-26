@@ -1,10 +1,9 @@
 package co.q64.arcade.core.api.managers;
 
-import org.bukkit.entity.Player;
-
 import co.q64.arcade.base.api.annotation.inject.Global;
 import co.q64.arcade.base.api.annotation.inject.Injectable;
 import co.q64.arcade.base.api.container.BaseMaterial;
+import co.q64.arcade.base.api.container.BasePlayer;
 import co.q64.arcade.base.api.managers.Manager;
 import co.q64.arcade.core.api.bag.BagLibrary;
 
@@ -25,7 +24,7 @@ public interface BagManager extends Manager {
 	 * Opens the grab bag menu for the player
 	 * @param player the player to open the menu for
 	 */
-	public void openMenu(Player player);
+	public void openMenu(BasePlayer player);
 
 	/**
 	 * Sets the current set of grab bags that can be opened

@@ -6,10 +6,11 @@ import java.util.UUID;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
 
 import co.q64.arcade.api.lang.LinkedQueue;
 import co.q64.arcade.base.api.annotation.inject.Noinject;
+import co.q64.arcade.base.api.container.BaseItemStack;
+import co.q64.arcade.base.api.container.BaseMaterial;
 import co.q64.arcade.core.api.objects.item.core.FieldStack;
 import co.q64.arcade.core.api.quality.Quality;
 
@@ -41,7 +42,7 @@ public interface Item {
 
 	public int getLevel();
 
-	public Material getItem();
+	public BaseMaterial getItem();
 
 	public String getItemString();
 
@@ -125,7 +126,7 @@ public interface Item {
 
 	public void setGiftedBy(String s);
 
-	public ItemStack getCustomDisplayItem();
+	public BaseItemStack getCustomDisplayItem();
 
 	public Item copy();
 

@@ -2,10 +2,9 @@ package co.q64.arcade.core.api.managers;
 
 import java.util.List;
 
-import org.bukkit.entity.Player;
-
 import co.q64.arcade.base.api.annotation.inject.Global;
 import co.q64.arcade.base.api.annotation.inject.Injectable;
+import co.q64.arcade.base.api.container.BasePlayer;
 import co.q64.arcade.base.api.managers.Manager;
 import co.q64.arcade.core.api.crate.CrateLibrary;
 import co.q64.arcade.core.api.crate.CrateOpenExecutor;
@@ -49,14 +48,14 @@ public interface CrateManager extends Manager {
 	 * Opens the crate menu with the default series for player
 	 * @param player who to open the menu for
 	 */
-	public void openMenu(Player player);
+	public void openMenu(BasePlayer player);
 
 	/**
 	 * Opens the crate menu with the given series for player
 	 * @param player who to open the menu for
 	 * @param series the crate series to open the menu for
 	 */
-	public void openMenu(Player player, String series);
+	public void openMenu(BasePlayer player, String series);
 
 	/**
 	 * Gets the lore for a crate
@@ -77,5 +76,5 @@ public interface CrateManager extends Manager {
 	 * @param player the player who unboxed the crate
 	 * @param item the item they found
 	 */
-	public void doFoundEffect(Player player, Item item);
+	public void doFoundEffect(BasePlayer player, Item item);
 }

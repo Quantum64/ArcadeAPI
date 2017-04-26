@@ -9,4 +9,8 @@ public interface BaseItemStack {
 	public BaseItemMeta getItemMeta();
 
 	public boolean hasItemMeta();
+
+	public int getEnchantmentCount();
+
+	public void setItemMeta(BaseItemMeta tagMeta);
 }

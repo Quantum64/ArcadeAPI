@@ -1,13 +1,12 @@
 package co.q64.arcade.core.api.implementable;
 
-import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
-
 import co.q64.arcade.base.api.annotation.inject.Noinject;
+import co.q64.arcade.base.api.container.BaseItemStack;
+import co.q64.arcade.base.api.container.BasePlayer;
 
 @Noinject(reason = Noinject.IMPLEMENT)
 public interface SelectMenuExecutor {
-	public void onItemSelect(Player p, ItemStack item);
+	public void onItemSelect(BasePlayer p, BaseItemStack item);
 
-	public void onBack(Player p);
+	public void onBack(BasePlayer p);
 }

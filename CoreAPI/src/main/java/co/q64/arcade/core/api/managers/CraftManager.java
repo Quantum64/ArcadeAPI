@@ -1,9 +1,8 @@
 package co.q64.arcade.core.api.managers;
 
-import org.bukkit.entity.Player;
-
 import co.q64.arcade.base.api.annotation.inject.Global;
 import co.q64.arcade.base.api.annotation.inject.Injectable;
+import co.q64.arcade.base.api.container.BasePlayer;
 import co.q64.arcade.base.api.managers.Manager;
 import co.q64.arcade.core.api.craft.CraftExecutor;
 import co.q64.arcade.core.api.craft.CraftTemplate;
@@ -20,7 +19,7 @@ public interface CraftManager extends Manager {
 	 * Opens the crafting GUI for a player
 	 * @param player the player to open the GUI for
 	 */
-	public void openMenu(Player player);
+	public void openMenu(BasePlayer player);
 
 	/**
 	 * Adds a crafting executor on demand

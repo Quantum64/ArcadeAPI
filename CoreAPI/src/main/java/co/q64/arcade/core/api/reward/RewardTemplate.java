@@ -2,9 +2,8 @@ package co.q64.arcade.core.api.reward;
 
 import java.util.List;
 
-import org.bukkit.entity.Player;
-
 import co.q64.arcade.base.api.annotation.inject.Noinject;
+import co.q64.arcade.base.api.container.BasePlayer;
 import co.q64.arcade.core.api.implementable.PlayerExecutor;
 import co.q64.arcade.core.api.perm.Group;
 
@@ -24,10 +23,10 @@ public interface RewardTemplate {
 
 	public Group getGroup();
 
-	public long getUnlockTime(Player p);
+	public long getUnlockTime(BasePlayer p);
 
-	public RewardStatus canClaim(Player p);
+	public RewardStatus canClaim(BasePlayer p);
 
-	public void claim(Player p);
+	public void claim(BasePlayer p);
 
 }
