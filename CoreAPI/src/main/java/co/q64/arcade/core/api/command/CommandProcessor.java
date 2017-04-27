@@ -3,6 +3,7 @@ package co.q64.arcade.core.api.command;
 import org.bukkit.command.CommandSender;
 
 import co.q64.arcade.base.api.annotation.inject.Noinject;
+import co.q64.arcade.base.api.command.VirtualCommandDefinition;
 
 /**
  * Command processor for handling arcade style commands
@@ -27,7 +28,7 @@ public interface CommandProcessor {
 	 */
 	public void doExecution(CommandSender sender, String command, String args);
 
-	public CommandDefinition getDefinition();
+	public VirtualCommandDefinition getDefinition();
 
-	public CommandDefinition getParent();
+	public VirtualCommandDefinition getParent();
 }

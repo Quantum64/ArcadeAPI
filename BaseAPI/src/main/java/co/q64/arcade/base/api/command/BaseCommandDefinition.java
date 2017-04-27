@@ -1,31 +1,31 @@
-package co.q64.arcade.core.api.command;
+package co.q64.arcade.base.api.command;
 
 import java.util.List;
 
-import org.bukkit.command.CommandSender;
-
 import co.q64.arcade.base.api.annotation.inject.Noinject;
-import co.q64.arcade.base.api.command.VirtualCommandDefinition;
+import co.q64.arcade.base.api.perm.DefaultGroups;
+import co.q64.arcade.base.api.perm.Group;
+import co.q64.arcade.base.api.util.message.MessageReceiver;
 
 @Noinject(reason = Noinject.IMPLEMENT)
-public interface CommandDefinition extends VirtualCommandDefinition {
+public interface BaseCommandDefinition extends VirtualCommandDefinition {
 	/**
 	 * Override this to allow command execution with array args
 	 * @param sender the command sender
 	 * @param args the command arguments
 	 */
-	public default void execute(CommandSender sender, String[] args) {}
+	public default void execute(MessageReceiver sender, String[] args) {}
 
 	/**
 	 * Override this to allow command execution with list args
 	 * @param sender the command sender
 	 * @param args the command arguments
 	 */
-	public default void execute(CommandSender sender, List<String> args) {}
+	public default void execute(MessageReceiver sender, List<String> args) {}
 
 	/**
 	 * Override this to allow command execution with no args
 	 * @param sender the command sender
 	 */
-	public default void execute(CommandSender sender) {}
+	public default void execute(MessageReceiver sender) {}
 }

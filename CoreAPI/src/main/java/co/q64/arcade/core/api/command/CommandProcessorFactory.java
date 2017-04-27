@@ -2,11 +2,10 @@ package co.q64.arcade.core.api.command;
 
 import co.q64.arcade.base.api.annotation.inject.Global;
 import co.q64.arcade.base.api.annotation.inject.Injectable;
-
-import com.google.inject.assistedinject.Assisted;
+import co.q64.arcade.base.api.command.VirtualCommandDefinition;
 
 @Global
 @Injectable
 public interface CommandProcessorFactory {
-	public CommandProcessor create(@Assisted("parent") CommandDefinition parent, @Assisted("definition") CommandDefinition definition);
+	public CommandProcessor create(CommandDefinition parent, VirtualCommandDefinition definition);
 }
