@@ -1,4 +1,4 @@
-package co.q64.arcade.core.api.reporting;
+package co.q64.arcade.base.api.reporting;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package co.q64.arcade.core.api.perm;
+package co.q64.arcade.base.api.perm;
 
 import java.util.List;
 

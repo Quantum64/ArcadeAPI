@@ -1,4 +1,4 @@
-package co.q64.arcade.core.api.util.chat;
+package co.q64.arcade.base.api.util.chat;
 
 import co.q64.arcade.base.api.annotation.inject.Global;
 import co.q64.arcade.base.api.annotation.inject.Injectable;

@@ -5,8 +5,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 import co.q64.arcade.base.api.annotation.inject.Injectable;
+import co.q64.arcade.base.api.perm.Group;
 import co.q64.arcade.core.api.implementable.PlayerExecutor;
-import co.q64.arcade.core.api.perm.Group;
 
 import com.google.inject.assistedinject.Assisted;
 

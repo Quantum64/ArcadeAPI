@@ -1,4 +1,4 @@
-package co.q64.arcade.base.api.objects;
+package co.q64.arcade.core.api.objects;
 
 import java.util.List;
 

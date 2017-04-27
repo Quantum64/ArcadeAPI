@@ -5,8 +5,8 @@ import java.util.List;
 import org.bukkit.entity.Player;
 
 import co.q64.arcade.base.api.annotation.inject.Noinject;
+import co.q64.arcade.base.api.perm.Group;
 import co.q64.arcade.core.api.implementable.PlayerExecutor;
-import co.q64.arcade.core.api.perm.Group;
 
 @Noinject(reason = Noinject.DATA)
 public interface RewardTemplate {

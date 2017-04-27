@@ -1,10 +1,10 @@
-package co.q64.arcade.base.api.database.factory;
+package co.q64.arcade.core.api.database.factory;
 
 import java.util.UUID;
 
 import co.q64.arcade.base.api.annotation.inject.Global;
 import co.q64.arcade.base.api.annotation.inject.Injectable;
-import co.q64.arcade.base.api.objects.MultiPlayerData;
+import co.q64.arcade.core.api.objects.MultiPlayerData;
 
 /**
  * Factory for creating MegaPlayerData, an ease of use class for modifying many tables at once

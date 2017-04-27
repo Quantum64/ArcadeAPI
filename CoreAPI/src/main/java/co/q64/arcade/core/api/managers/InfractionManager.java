@@ -2,27 +2,26 @@ package co.q64.arcade.core.api.managers;
 
 import java.util.concurrent.Future;
 
-import org.bukkit.entity.Player;
-
 import co.q64.arcade.base.api.annotation.inject.Global;
 import co.q64.arcade.base.api.annotation.inject.Injectable;
+import co.q64.arcade.base.api.container.BasePlayer;
 import co.q64.arcade.base.api.managers.Manager;
 import co.q64.arcade.base.api.util.message.MessageReceiver;
 
 @Injectable
 @Global
 public interface InfractionManager extends Manager {
-	public void warn(Player p, MessageReceiver cs, String reason);
+	public void warn(BasePlayer p, MessageReceiver cs, String reason);
 
 	public void info(String playerName, MessageReceiver cs);
 
-	public void warnMessage(MessageReceiver cs, Player p, String reason, boolean chat);
+	public void warnMessage(MessageReceiver cs, BasePlayer p, String reason, boolean chat);
 
-	public boolean kick(Player p, String argName, MessageReceiver cs, String reason, boolean inc);
+	public boolean kick(BasePlayer p, String argName, MessageReceiver cs, String reason, boolean inc);
 
-	public boolean messageAllowed(Player p, String message);
+	public boolean messageAllowed(BasePlayer p, String message);
 
-	public void filterMessage(Player p, String message);
+	public void filterMessage(BasePlayer p, String message);
 
 	public Future<?> tempmute(String p, MessageReceiver cs, long endTime, String reason);
 

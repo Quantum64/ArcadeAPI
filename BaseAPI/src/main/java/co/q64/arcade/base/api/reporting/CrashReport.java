@@ -1,4 +1,4 @@
-package co.q64.arcade.core.api.reporting;
+package co.q64.arcade.base.api.reporting;
 
 import co.q64.arcade.base.api.annotation.inject.Injectable;
 import co.q64.arcade.base.api.annotation.inject.Providable;
