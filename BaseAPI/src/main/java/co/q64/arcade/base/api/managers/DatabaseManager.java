@@ -35,6 +35,8 @@ public interface DatabaseManager extends Manager {
 	public void manualUpdate(Class<? extends PlayerData> clazz, UUID player);
 
 	public void manualUpdate(PlayerData data);
+	
+	public void queryData(UUID uuid);
 
 	public <T> Class<? extends T> swapClass(Class<T> clazz);
 }
