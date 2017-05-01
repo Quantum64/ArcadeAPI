@@ -1,5 +1,7 @@
 package co.q64.arcade.api;
 
+import java.util.List;
+
 /**
  * Represents a logger for logging stuff
  * @author Dylan
@@ -56,4 +58,6 @@ public interface Logger {
 	 * @param t the error to log
 	 */
 	public void error(Throwable t);
+	
+	public List<String> getLastLogs();
 }
