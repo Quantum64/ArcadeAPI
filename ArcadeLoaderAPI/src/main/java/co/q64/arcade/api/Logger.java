@@ -56,23 +56,4 @@ public interface Logger {
 	 * @param t the error to log
 	 */
 	public void error(Throwable t);
-
-	/**
-	 * What a terrible failure
-	 * @param message message
-	 */
-	public void wtf(String message);
-
-	/**
-	 * What a terrible failure
-	 * @param message something
-	 * @param t the error
-	 */
-	public void wtf(String message, Throwable t);
-
-	/**
-	 * What a terrible failure
-	 * @param t error
-	 */
-	public void wtf(Throwable t);
 }
