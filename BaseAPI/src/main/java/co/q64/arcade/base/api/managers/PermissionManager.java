@@ -105,4 +105,6 @@ public interface PermissionManager extends Manager {
 	public List<Group> getGroups();
 	
 	public Group groupFromName(String name);
+	
+	public Group getPrimaryGroup(UUID player);
 }

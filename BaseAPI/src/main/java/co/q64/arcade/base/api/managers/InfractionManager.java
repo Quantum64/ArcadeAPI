@@ -1,11 +1,10 @@
-package co.q64.arcade.core.api.managers;
+package co.q64.arcade.base.api.managers;
 
 import java.util.concurrent.Future;
 
 import co.q64.arcade.base.api.annotation.inject.Global;
 import co.q64.arcade.base.api.annotation.inject.Injectable;
 import co.q64.arcade.base.api.container.BasePlayer;
-import co.q64.arcade.base.api.managers.Manager;
 import co.q64.arcade.base.api.util.message.MessageReceiver;
 
 @Injectable
@@ -16,6 +15,8 @@ public interface InfractionManager extends Manager {
 	public void info(String playerName, MessageReceiver cs);
 
 	public void warnMessage(MessageReceiver cs, BasePlayer p, String reason, boolean chat);
+	
+	public void enableFilter();
 
 	public boolean kick(BasePlayer p, String argName, MessageReceiver cs, String reason, boolean inc);
 

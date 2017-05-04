@@ -8,4 +8,6 @@ public interface BasePlayer extends MessageReceiver {
 	public String getName();
 	
 	public UUID getUniqueId();
+
+	public void kickPlayer(String reason);
 }
