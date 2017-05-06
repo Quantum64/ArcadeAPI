@@ -14,4 +14,16 @@ public interface GeneralDataController {
 	public void delete(String value);
 
 	public void delete(String key, String value);
+
+	public void update(String value, Runnable onComplete);
+
+	public void update(String key, String value, Runnable onComplete);
+
+	public void update(GeneralData data, String value, Runnable onComplete);
+
+	public void update(GeneralData data, String key, String value, Runnable onComplete);
+
+	public void delete(String value, Runnable onComplete);
+
+	public void delete(String key, String value, Runnable onComplete);
 }
