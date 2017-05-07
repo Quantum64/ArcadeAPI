@@ -21,5 +21,8 @@ public interface BaseConstantBinders {
 	
 	@Target({ ElementType.FIELD }) @Retention(RUNTIME) @BindingAnnotation
 	public static @interface CoreVersion {}
+	
+	@Target({ ElementType.FIELD }) @Retention(RUNTIME) @BindingAnnotation
+	public static @interface CurrentPacketDestination {}
 	//formatter:on
 }

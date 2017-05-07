@@ -4,6 +4,8 @@ import java.util.Optional;
 import java.util.UUID;
 import java.util.function.Function;
 
+import co.q64.arcade.base.api.annotation.packet.PacketDefinition;
+
 public interface ConstructedPacket<T extends Frame, U extends Frame> {
 	public PacketDestination getDestination();
 
@@ -15,7 +17,7 @@ public interface ConstructedPacket<T extends Frame, U extends Frame> {
 
 	public Optional<PacketResponseHandler<U>> getHandler();
 	
-	public String getName();
+	public PacketDefinition getDefinition();
 
 	public void send();
 

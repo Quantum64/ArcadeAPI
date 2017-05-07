@@ -6,9 +6,15 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+import co.q64.arcade.base.api.net.Frame;
+
 @Inherited
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-public @interface PacketName {
+public @interface PacketDefinition {
 	public String value();
+	
+	public Class<? extends Frame> request();
+	
+	public Class<? extends Frame> response();
 }
