@@ -6,6 +6,8 @@ import co.q64.arcade.base.api.command.BaseCommandDefinition;
 import co.q64.arcade.base.api.database.objects.GeneralData;
 import co.q64.arcade.base.api.database.objects.PlayerData;
 import co.q64.arcade.base.api.executor.Executor;
+import co.q64.arcade.base.api.net.Frame;
+import co.q64.arcade.base.api.net.Packet;
 import co.q64.arcade.base.api.perm.Group;
 import co.q64.arcade.base.api.perm.PermissionLink;
 
@@ -31,12 +33,16 @@ public abstract class BaseInjectUtil {
 	public static Multibinder<PermissionLink> getPermissionLinkBinder(Binder binder) {
 		return Multibinder.newSetBinder(binder, PermissionLink.class);
 	}
-	
+
 	public static Multibinder<BaseCommandDefinition> getBaseCommandBinder(Binder binder) {
 		return Multibinder.newSetBinder(binder, BaseCommandDefinition.class);
 	}
-	
+
 	public static Multibinder<Class<? extends Group>> getGroupBinder(Binder binder) {
 		return Multibinder.newSetBinder(binder, new TypeLiteral<Class<? extends Group>>() {});
+	}
+
+	public static Multibinder<Class<? extends Packet<? extends Frame, ? extends Frame>>> getPacketBinder(Binder binder) {
+		return Multibinder.newSetBinder(binder, new TypeLiteral<Class<? extends Packet<? extends Frame, ? extends Frame>>>() {});
 	}
 }

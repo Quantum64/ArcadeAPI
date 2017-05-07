@@ -1,6 +1,6 @@
-package co.q64.arcade.core.api.managers;
+package co.q64.arcade.base.api.managers;
 
-import co.q64.arcade.core.api.implementable.OptionExecutor;
+import co.q64.arcade.base.api.implementable.OptionExecutor;
 
 public interface OptionManager {
 	public void getOption(String option, OptionExecutor executor);

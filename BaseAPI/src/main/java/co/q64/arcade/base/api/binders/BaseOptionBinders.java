@@ -8,22 +8,15 @@ import java.lang.annotation.Target;
 
 import com.google.inject.BindingAnnotation;
 
-public interface ConstantBinders {
+public interface BaseOptionBinders {
 	//formatter:off
 	@Target({ ElementType.FIELD }) @Retention(RUNTIME) @BindingAnnotation
-	public static @interface ModuleName {}
+	public static @interface PacketPortKey {}
 	
 	@Target({ ElementType.FIELD }) @Retention(RUNTIME) @BindingAnnotation
-	public static @interface DefaultDataName {}
+	public static @interface PacketUUIDKey {}
 	
 	@Target({ ElementType.FIELD }) @Retention(RUNTIME) @BindingAnnotation
-	public static @interface CoreVersion {}
-	
-	@Target({ ElementType.FIELD }) @Retention(RUNTIME) @BindingAnnotation
-	public static @interface RewardsAnimationDistance {}
-	
-	@Target({ ElementType.FIELD }) @Retention(RUNTIME) @BindingAnnotation
-	public static @interface ConsoleMessageReceiver {}
-	
+	public static @interface PacketIPKey {}
 	//formatter:on
 }

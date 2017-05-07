@@ -1,4 +1,4 @@
-package co.q64.arcade.core.api.implementable;
+package co.q64.arcade.base.api.implementable;
 
 import java.util.Optional;
 
