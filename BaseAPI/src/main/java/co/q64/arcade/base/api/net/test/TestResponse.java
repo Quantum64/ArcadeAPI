@@ -5,5 +5,5 @@ import co.q64.arcade.base.api.net.Frame;
 public interface TestResponse extends Frame {
 	public boolean isAccepted();
 	
-	public void setIsAccepted(boolean b);
+	public void withAccepted(boolean b);
 }

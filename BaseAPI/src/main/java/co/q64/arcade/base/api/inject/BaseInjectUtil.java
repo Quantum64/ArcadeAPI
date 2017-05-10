@@ -41,8 +41,4 @@ public abstract class BaseInjectUtil {
 	public static Multibinder<Class<? extends Group>> getGroupBinder(Binder binder) {
 		return Multibinder.newSetBinder(binder, new TypeLiteral<Class<? extends Group>>() {});
 	}
-
-	public static Multibinder<Class<? extends Packet<? extends Frame, ? extends Frame>>> getPacketBinder(Binder binder) {
-		return Multibinder.newSetBinder(binder, new TypeLiteral<Class<? extends Packet<? extends Frame, ? extends Frame>>>() {});
-	}
 }

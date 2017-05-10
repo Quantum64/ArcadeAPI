@@ -3,6 +3,9 @@ package co.q64.arcade.base.api.net;
 import java.util.UUID;
 import java.util.function.Function;
 
+import co.q64.arcade.base.api.annotation.inject.Noinject;
+
+@Noinject
 public interface PacketBuilder<T extends Frame, U extends Frame> {
 	public PacketBuilder<T, U> to(PacketDestination dest);
 
