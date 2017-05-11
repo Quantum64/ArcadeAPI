@@ -13,7 +13,7 @@ public interface PacketJunction<T extends Frame, U extends Frame> {
 
 	public PacketBuilder<T, U> prepare();
 
-	public Map<PacketDestination, List<PacketRequestHandler<? extends Frame, ? extends Frame>>> getHandlers();
+	public Map<PacketDestination, List<CompiledPacketContext<? extends Frame, ? extends Frame>>> getHandlers();
 
 	public Class<? extends Packet<T, U>> getDefinition();
 }
