@@ -4,17 +4,16 @@ import org.bukkit.event.Listener;
 
 import co.q64.arcade.base.api.annotation.inject.Noinject;
 import co.q64.arcade.base.api.annotation.inject.Universal;
-import co.q64.arcade.base.api.database.objects.GeneralData;
 import co.q64.arcade.base.api.inject.BaseInjectUtil;
 import co.q64.arcade.core.api.command.CommandDefinition;
 import co.q64.arcade.core.api.cosmetics.CosmeticComponent;
 import co.q64.arcade.core.api.craft.CraftExecutor;
 import co.q64.arcade.core.api.craft.CraftTemplate;
+import co.q64.arcade.core.api.objects.item.ItemRegistrar;
 import co.q64.arcade.core.api.quality.Quality;
 import co.q64.arcade.core.api.task.ArcadeTask;
 
 import com.google.inject.Binder;
-import com.google.inject.TypeLiteral;
 import com.google.inject.multibindings.Multibinder;
 
 /**
@@ -51,5 +50,9 @@ public abstract class InjectUtil extends BaseInjectUtil {
 
 	public static Multibinder<Quality> getQualityBinder(Binder binder) {
 		return Multibinder.newSetBinder(binder, Quality.class);
+	}
+	
+	public static Multibinder<ItemRegistrar> getItemBinder(Binder binder){
+		return Multibinder.newSetBinder(binder, ItemRegistrar.class);
 	}
 }

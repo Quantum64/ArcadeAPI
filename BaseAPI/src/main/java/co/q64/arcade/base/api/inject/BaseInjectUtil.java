@@ -6,8 +6,8 @@ import co.q64.arcade.base.api.command.BaseCommandDefinition;
 import co.q64.arcade.base.api.database.objects.GeneralData;
 import co.q64.arcade.base.api.database.objects.PlayerData;
 import co.q64.arcade.base.api.executor.Executor;
-import co.q64.arcade.base.api.net.Frame;
-import co.q64.arcade.base.api.net.Packet;
+import co.q64.arcade.base.api.net.FrameRegistrar;
+import co.q64.arcade.base.api.net.PacketRegistrar;
 import co.q64.arcade.base.api.perm.Group;
 import co.q64.arcade.base.api.perm.PermissionLink;
 
@@ -40,5 +40,13 @@ public abstract class BaseInjectUtil {
 
 	public static Multibinder<Class<? extends Group>> getGroupBinder(Binder binder) {
 		return Multibinder.newSetBinder(binder, new TypeLiteral<Class<? extends Group>>() {});
+	}
+
+	public static Multibinder<PacketRegistrar> getPacketBinder(Binder binder) {
+		return Multibinder.newSetBinder(binder, PacketRegistrar.class);
+	}
+
+	public static Multibinder<FrameRegistrar> getFrameBinder(Binder binder) {
+		return Multibinder.newSetBinder(binder, FrameRegistrar.class);
 	}
 }
