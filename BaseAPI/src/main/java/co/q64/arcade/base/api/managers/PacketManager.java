@@ -10,8 +10,6 @@ public interface PacketManager {
 
 	public void disable();
 
-	public void finalizePackets();
-
 	public <T extends Frame, U extends Frame> PacketJunction<T, U> getPacket(Class<? extends Packet<T, U>> clazz);
 
 	public <T extends Frame, U extends Frame> void sendPacket(ConstructedPacket<T, U> packet, boolean async);
