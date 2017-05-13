@@ -95,6 +95,12 @@
 			<classifier>final</classifier>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>co.q64.arcade.base.api</groupId>
+			<artifactId>BaseAPI</artifactId>
+			<classifier>final</classifier>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 	<groupId>co.q64.arcade.annotation</groupId>
 </project>

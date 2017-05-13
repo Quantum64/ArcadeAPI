@@ -2,8 +2,6 @@ package co.q64.arcade.base.api.database;
 
 import java.sql.SQLException;
 
-import org.apache.commons.dbutils.q64.ResultSetHandler;
-
 import co.q64.arcade.base.api.annotation.inject.Global;
 import co.q64.arcade.base.api.annotation.inject.Injectable;
 
@@ -25,7 +23,7 @@ public interface QueryExecutor {
 	 * @return the result of the SQL query
 	 * @throws SQLException if there was an error during execution
 	 */
-	public <T> T query(String sql, ResultSetHandler<T> rsh, Object... params) throws SQLException;
+	public <T> T query(String sql, QueryHandler<T> rsh, Object... params) throws SQLException;
 
 	/**
 	 * Executes a SQL update on this query runner.  This is a blocking operation.

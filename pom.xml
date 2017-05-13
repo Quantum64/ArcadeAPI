@@ -68,22 +68,6 @@
 			</dependency>
 
 			<dependency>
-				<groupId>com.google.inject</groupId>
-				<artifactId>guice</artifactId>
-				<version>4.0</version>
-			</dependency>
-			<dependency>
-				<groupId>com.google.inject.extensions</groupId>
-				<artifactId>guice-assistedinject</artifactId>
-				<version>4.0</version>
-			</dependency>
-			<dependency>
-				<groupId>com.google.inject.extensions</groupId>
-				<artifactId>guice-multibindings</artifactId>
-				<version>4.0</version>
-			</dependency>
-
-			<dependency>
 				<groupId>org.spigotmc</groupId>
 				<artifactId>spigot</artifactId>
 				<type>jar</type>
@@ -131,13 +115,6 @@
 				<artifactId>BaseAPI</artifactId>
 				<classifier>final</classifier>
 				<version>1.0</version>
-			</dependency>
-			<dependency>
-				<groupId>co.q64.arcade</groupId>
-				<artifactId>External</artifactId>
-				<classifier>final</classifier>
-				<scope>provided</scope>
-				<version>4</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

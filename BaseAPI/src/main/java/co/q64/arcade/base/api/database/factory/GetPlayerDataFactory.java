@@ -2,8 +2,6 @@ package co.q64.arcade.base.api.database.factory;
 
 import java.util.UUID;
 
-import org.apache.commons.dbutils.q64.handlers.BeanHandler;
-
 import co.q64.arcade.base.api.annotation.inject.Global;
 import co.q64.arcade.base.api.annotation.inject.Injectable;
 import co.q64.arcade.base.api.database.QueryExecutor;
@@ -29,5 +27,5 @@ public interface GetPlayerDataFactory {
 	 * @param bean the class to fill with the data
 	 * @return the GetData query, which can be executed directly
 	 */
-	public GetPlayerData create(QueryExecutor runner, UUID player, String tableName, BeanHandler<? extends PlayerData> definedHandler, Class<? extends PlayerData> bean);
+	public GetPlayerData create(QueryExecutor runner, UUID player, String tableName, Class<? extends PlayerData> bean);
 }

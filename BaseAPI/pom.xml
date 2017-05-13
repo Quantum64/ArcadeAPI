@@ -88,14 +88,18 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>co.q64.arcade.api</groupId>
-			<artifactId>ArcadeLoaderAPI</artifactId>
-			<classifier>final</classifier>
+			<groupId>com.google.inject.extensions</groupId>
+			<artifactId>guice-assistedinject</artifactId>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>co.q64.arcade</groupId>
-			<artifactId>External</artifactId>
+			<groupId>com.google.inject.extensions</groupId>
+			<artifactId>guice-multibindings</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>co.q64.arcade.api</groupId>
+			<artifactId>ArcadeLoaderAPI</artifactId>
 			<classifier>final</classifier>
 			<scope>provided</scope>
 		</dependency>
