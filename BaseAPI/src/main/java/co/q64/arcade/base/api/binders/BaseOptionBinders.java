@@ -18,5 +18,8 @@ public interface BaseOptionBinders {
 	
 	@Target({ ElementType.FIELD }) @Retention(RUNTIME) @BindingAnnotation
 	public static @interface PacketIPKey {}
+	
+	@Target({ ElementType.FIELD }) @Retention(RUNTIME) @BindingAnnotation
+	public static @interface SQLBoss {}
 	//formatter:on
 }
