@@ -1,6 +1,6 @@
 package co.q64.arcade.base.api.managers;
 
-import java.util.List;
+import java.util.Set;
 import java.util.UUID;
 
 import co.q64.arcade.base.api.database.QueryExecutor;
@@ -24,7 +24,7 @@ public interface DatabaseManager extends Manager {
 
 	public <T> T getData(Class<T> dataType, UUID player);
 
-	public <T> List<PlayerData> getDataList(Class<T> dataType);
+	public <T> Set<PlayerData> getDataList(Class<T> dataType);
 
 	public void disconnect(UUID u);
 
