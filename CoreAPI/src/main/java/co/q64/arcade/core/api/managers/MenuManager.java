@@ -9,9 +9,12 @@ import co.q64.arcade.base.api.annotation.inject.Global;
 import co.q64.arcade.base.api.annotation.inject.Injectable;
 import co.q64.arcade.base.api.managers.Manager;
 import co.q64.arcade.core.api.implementable.SelectMenuExecutor;
+import co.q64.arcade.core.api.menu.Menu;
 
 @Injectable
 @Global
 public interface MenuManager extends Manager {
-	public void openMenu(Player player, String name, List<ItemStack> items, boolean close, SelectMenuExecutor executor);
+	public void openGenericMenu(Player player, String name, List<ItemStack> items, boolean close, SelectMenuExecutor executor);
+
+	public Menu create();
 }
