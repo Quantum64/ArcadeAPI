@@ -1,8 +1,8 @@
 package co.q64.arcade.core.api.menu.executors;
 
-import co.q64.arcade.base.api.container.BasePlayer;
+import org.bukkit.entity.Player;
 
 @FunctionalInterface
 public interface MenuTickExecutor {
-	public void execute(BasePlayer player);
+	public void execute(Player player);
 }

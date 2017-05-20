@@ -12,7 +12,7 @@ public interface MenuItem {
 
 	public MenuItem withAmount(int amount);
 
-	public MenuItem withData(short data);
+	public MenuItem withData(byte data);
 
 	public MenuItem withLore(String lore);
 
