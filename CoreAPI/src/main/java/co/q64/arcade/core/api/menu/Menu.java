@@ -1,5 +1,7 @@
 package co.q64.arcade.core.api.menu;
 
+import java.util.function.Function;
+
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -28,4 +30,6 @@ public interface Menu {
 	public void open(Player player);
 
 	public void open(BasePlayer player);
+	
+	public Menu apply(Function<Menu, Menu> func);
 }

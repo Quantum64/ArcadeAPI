@@ -17,8 +17,10 @@ public interface MenuItem {
 	public MenuItem withLore(String lore);
 
 	public MenuItem withLore(List<String> lore);
+	
+	public MenuItem withLore(String... lore);
 
-	public MenuItem withSlots(int slot);
+	public MenuItem withSlot(int slot);
 
 	public MenuItem withSlots(int[] slots);
 
