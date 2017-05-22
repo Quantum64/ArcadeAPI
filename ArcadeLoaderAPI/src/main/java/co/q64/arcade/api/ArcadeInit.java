@@ -1,6 +1,7 @@
 package co.q64.arcade.api;
 
 import co.q64.arcade.api.inject.AbstractArcadeModule;
+import co.q64.arcade.api.util.Platform;
 
 /**
  * The init class for the module
@@ -22,5 +23,11 @@ public interface ArcadeInit {
 	 * Gets the module requirements for the module
 	 * @return the arcade module
 	 */
-	public AbstractArcadeModule require();
+	public default AbstractArcadeModule require() {
+		return null;
+	}
+
+	public default AbstractArcadeModule require(Platform platform) {
+		return null;
+	}
 }

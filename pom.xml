@@ -132,6 +132,7 @@
 		<module>BaseAPI</module>
 		<module>CoreAPI</module>
 		<module>GameAPI</module>
+		<module>ProxycoreAPI</module>
 		<module>ArcadeAnnotationProcessor</module>
 	</modules>
 </project>
