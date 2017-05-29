@@ -11,4 +11,6 @@ public interface IdentityManager extends Manager {
 	public void ban(MessageReceiver cs, String name, String reason);
 	
 	public void unban(MessageReceiver cs, String name);
+	
+	public void unlink(MessageReceiver cs, String name);
 }
