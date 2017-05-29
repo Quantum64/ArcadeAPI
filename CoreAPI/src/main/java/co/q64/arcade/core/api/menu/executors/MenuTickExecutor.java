@@ -4,5 +4,5 @@ import org.bukkit.entity.Player;
 
 @FunctionalInterface
 public interface MenuTickExecutor {
-	public void execute(Player player);
+	public void execute(Player menu);
 }
