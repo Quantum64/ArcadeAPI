@@ -25,4 +25,14 @@ public interface OfflinePlayerActionFactory {
 	 * @return the offline data provider
 	 */
 	public <T extends PlayerData> OfflinePlayerAction<T> create(MessageReceiver sender, String name, PlayerDataExecutor<T> exec, Class<T> clazz);
+	
+	/**
+	 * Gets a provider for offline data access
+	 * @param sender the requester of this data, error messages are sent here
+	 * @param name the name of the player to get the offline data of
+	 * @param exec the place to send the data once it's been retrieved, will always execute on the server thread
+	 * @param clazz the data bean class to get
+	 * @return the offline data provider
+	 */
+	public <T extends PlayerData> OfflinePlayerAction<T> createNoUpdate(MessageReceiver sender, String name, PlayerDataExecutor<T> exec, Class<T> clazz);
 }
