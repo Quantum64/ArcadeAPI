@@ -23,7 +23,7 @@ public interface Bag {
 	 * Gets a random item this bag should drop
 	 * @return the dropped item
 	 */
-	public Item getItem();
+	public Item getItem(String name);
 	
 	/**
 	 * Gets the lore of the bag for the GUI
