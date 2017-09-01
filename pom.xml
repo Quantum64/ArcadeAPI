@@ -20,10 +20,6 @@
 
 	<repositories>
 		<repository>
-			<id>elmakers-repo</id>
-			<url>http://maven.elmakers.com/repository/</url>
-		</repository>
-		<repository>
 			<id>gh-repo</id>
 			<url>http://quantum64.github.io/Arcade/mvn-repo/</url>
 		</repository>
