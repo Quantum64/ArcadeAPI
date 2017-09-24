@@ -17,12 +17,14 @@ public interface DatabaseManager extends Manager {
 	public QueryExecutor getQueryRunner();
 
 	public boolean init();
-	
+
 	public boolean isSQLBoss();
-	
+
 	public String dataToString(PlayerData playerData);
 
 	public <T> T getData(Class<T> dataType, UUID player);
+
+	public <T> boolean hasData(Class<T> dataType, UUID player);
 
 	public <T> Set<PlayerData> getDataList(Class<T> dataType);
 
@@ -39,7 +41,7 @@ public interface DatabaseManager extends Manager {
 	public void manualUpdate(Class<? extends PlayerData> clazz, UUID player);
 
 	public void manualUpdate(PlayerData data);
-	
+
 	public void queryData(UUID uuid, boolean reload);
 
 	public <T> Class<? extends T> swapClass(Class<T> clazz);
