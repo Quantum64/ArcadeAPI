@@ -6,6 +6,7 @@ import co.q64.arcade.base.api.annotation.inject.Noinject;
 import co.q64.arcade.base.api.annotation.inject.Universal;
 import co.q64.arcade.base.api.inject.BaseInjectUtil;
 import co.q64.arcade.core.api.command.CommandDefinition;
+import co.q64.arcade.core.api.command.commands.item.spawn.ItemSpawnDefinition;
 import co.q64.arcade.core.api.cosmetics.CosmeticComponent;
 import co.q64.arcade.core.api.craft.CraftExecutor;
 import co.q64.arcade.core.api.craft.CraftTemplate;
@@ -51,8 +52,12 @@ public abstract class InjectUtil extends BaseInjectUtil {
 	public static Multibinder<Quality> getQualityBinder(Binder binder) {
 		return Multibinder.newSetBinder(binder, Quality.class);
 	}
-	
-	public static Multibinder<ItemRegistrar> getItemBinder(Binder binder){
+
+	public static Multibinder<ItemRegistrar> getItemBinder(Binder binder) {
 		return Multibinder.newSetBinder(binder, ItemRegistrar.class);
+	}
+
+	public static Multibinder<ItemSpawnDefinition> getItemSpawnDefinitionBinder(Binder binder) {
+		return Multibinder.newSetBinder(binder, ItemSpawnDefinition.class);
 	}
 }
