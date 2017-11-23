@@ -28,7 +28,7 @@ public interface Item {
 	public String getUseCounterLore();
 
 	public String getUseCounterTitle();
-	
+
 	public String getDisplayName();
 
 	public UUID getUuid();
@@ -50,7 +50,7 @@ public interface Item {
 	public List<String> getAttrib();
 
 	public Quality getQuality();
-	
+
 	public String getQualityName();
 
 	public String getQualityColor();
@@ -92,7 +92,7 @@ public interface Item {
 	public void setAttribString(String s);
 
 	public void setQuality(Quality quality);
-	
+
 	public void setQualityName(String quality);
 
 	public void setQualityColor(String qualityColor);
@@ -136,22 +136,26 @@ public interface Item {
 	public void setUnusualSalvagedColor(List<ChatColor> colors);
 
 	public LinkedQueue<ChatColor> getUnusualSalvagedColor();
-	
+
 	public boolean getDemo();
-	
+
 	public void setDemo(boolean demo);
-	
+
 	public String getDemoString();
-	
+
 	public void setDemoString(String s);
-	
+
 	public long getValidTo();
-	
+
 	public void setValidTo(long validTo);
-	
+
 	public String getValidToString();
-	
+
 	public void setValidToString(String s);
-	
+
+	public String getOwner();
+
+	public void setOwner(String s);
+
 	public FieldStack getFieldStack();
 }
