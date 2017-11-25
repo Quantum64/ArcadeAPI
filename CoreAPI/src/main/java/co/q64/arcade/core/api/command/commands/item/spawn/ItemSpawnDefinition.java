@@ -8,5 +8,7 @@ import co.q64.arcade.base.api.annotation.inject.Noinject;
 public interface ItemSpawnDefinition {
 	public List<Trait> getTraits();
 
+	public String getName();
+
 	public SpawnAttemptResult getItem(List<TraitValue> values);
 }
