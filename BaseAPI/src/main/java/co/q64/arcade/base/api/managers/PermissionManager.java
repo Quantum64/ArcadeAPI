@@ -107,4 +107,8 @@ public interface PermissionManager extends Manager {
 	public Group groupFromName(String name);
 	
 	public Group getPrimaryGroup(UUID player);
+	
+	public void disableGroup(Group group);
+	
+	public void disableGroups(Group... groups);
 }
